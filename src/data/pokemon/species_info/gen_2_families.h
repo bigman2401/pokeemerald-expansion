@@ -1886,11 +1886,11 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
     [SPECIES_AZURILL] =
     {
         .baseHP        = 50,
-        .baseAttack    = 20,
+        .baseAttack    = 30,
         .baseDefense   = 40,
         .baseSpeed     = 20,
-        .baseSpAttack  = 20,
-        .baseSpDefense = 40,
+        .baseSpAttack  = 30,
+        .baseSpDefense = 50,
     #if P_UPDATED_TYPES >= GEN_6
         .types = MON_TYPES(TYPE_NORMAL, TYPE_FAIRY),
     #else
@@ -1953,10 +1953,10 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
     [SPECIES_MARILL] =
     {
         .baseHP        = 70,
-        .baseAttack    = 20,
-        .baseDefense   = 50,
-        .baseSpeed     = 40,
-        .baseSpAttack  = 20,
+        .baseAttack    = 40,
+        .baseDefense   = 60,
+        .baseSpeed     = 50,
+        .baseSpAttack  = 40,
         .baseSpDefense = 50,
     #if P_UPDATED_TYPES >= GEN_6
         .types = MON_TYPES(TYPE_WATER, TYPE_FAIRY),
@@ -2013,16 +2013,17 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .levelUpLearnset = sMarillLevelUpLearnset,
         .teachableLearnset = sMarillTeachableLearnset,
         .eggMoveLearnset = sMarillEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 18, SPECIES_AZUMARILL}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 21, SPECIES_AZUMARILL}),
     },
 
     [SPECIES_AZUMARILL] =
     {
         .baseHP        = 100,
-        .baseAttack    = 50,
+        .baseAttack    = 60,
         .baseDefense   = 80,
-        .baseSpeed     = 50,
-        .baseSpAttack  = P_UPDATED_STATS >= GEN_6 ? 60 : 50,
+        .baseSpeed     = 60,
+        // .baseSpAttack  = P_UPDATED_STATS >= GEN_6 ? 60 : 50,
+        .baseSpAttack  = 70,
         .baseSpDefense = 80,
     #if P_UPDATED_TYPES >= GEN_6
         .types = MON_TYPES(TYPE_WATER, TYPE_FAIRY),
