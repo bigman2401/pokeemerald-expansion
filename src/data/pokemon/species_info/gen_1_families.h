@@ -15068,7 +15068,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .tmIlliterate = TRUE,
         .levelUpLearnset = sMagikarpLevelUpLearnset,
         .teachableLearnset = sMagikarpTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_GYARADOS}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 35, SPECIES_GYARADOS}),
     },
 
     [SPECIES_GYARADOS] =
