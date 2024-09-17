@@ -391,7 +391,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Carvanha
-Level: 15
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MUSEUM_2 ===
@@ -404,11 +404,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Zubat
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Carvanha
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
@@ -1042,11 +1042,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Azurill
-Level: 12
+Level: 16
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-Azurill
-Level: 12
+Marill
+Level: 17
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_AUSTINA ===
@@ -1058,8 +1058,8 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 26
+Azumarill
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GWEN ===
@@ -1071,8 +1071,8 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 26
+Starmie
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LOLA_2 ===
@@ -1153,7 +1153,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Zigzagoon
-Level: 13
+Level: 17
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Sand Attack
 - Headbutt
@@ -1169,12 +1169,12 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Azurill
-Level: 12
+Wingull
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Marill
-Level: 12
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHARLIE ===
@@ -2775,12 +2775,12 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 24
+Tentacruel
+Level: 30
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-Tentacool
-Level: 24
+Sharpedo
+Level: 30
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_DARRIN ===
@@ -2793,15 +2793,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Tentacool
-Level: 24
+Level: 29
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-Wingull
-Level: 24
+Pelipper
+Level: 29
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-Tentacool
-Level: 24
+Staryu
+Level: 29
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_TONY_1 ===
@@ -2813,8 +2813,8 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 26
+Sharpedo
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JEROME ===
@@ -2827,7 +2827,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Tentacruel
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MATTHEW ===
@@ -2839,8 +2839,8 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 26
+Sharpedo
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DAVID ===
@@ -2852,12 +2852,12 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 25
+Crawdaunt
+Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Carvanha
-Level: 25
+Sharpedo
+Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SPENCER ===
@@ -3365,20 +3365,21 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
+Voltorb
+Level: 19
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Charge
+- Shock Wave
+- Eerie Impulse 
+- Volt Switch
+
 Electrike
-Level: 17
+Level: 19
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Quick Attack
 - Thunder Wave
 - Spark
 - Leer
-
-Voltorb
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Charge
-- Shock Wave
-- Screech
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_7 ===
 Name: GRUNT
@@ -3419,12 +3420,12 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Voltorb
-Level: 17
+Chinchou
+Level: 19
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Magnemite
-Level: 17
+Level: 19
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_FERNANDO_1 ===
@@ -4109,10 +4110,9 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Abra
-Level: 15
+Kadabra
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Hidden Power
 
 === TRAINER_PRESTON ===
 Name: PRESTON
@@ -4281,10 +4281,9 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Abra
-Level: 16
+Spoink
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Hidden Power
 
 === TRAINER_HANNAH ===
 Name: HANNAH
@@ -4802,6 +4801,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Geodude @ Oran Berry
 Level: 14
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe 
 - Tackle
 - Rollout
 - Rock Polish
@@ -4810,6 +4810,7 @@ IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 Nosepass @ Oran Berry
 Level: 15
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 - Block
 - Harden
 - Tackle
@@ -4854,41 +4855,46 @@ Class: Leader
 Pic: Leader Wattson
 Gender: Male
 Music: Male
-Items: Super Potion / Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb
-Level: 20
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rollout
-- Spark
+Level: 24
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Thunder Wave
+- Volt Switch
 - Self Destruct
 - Shock Wave
 
 Electrike
-Level: 20
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Level: 24
+Ability: Lightning Rod
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Shock Wave
-- Leer
+- Thunder Wave
 - Quick Attack
-- Howl
+- Bite
 
-Magneton
-Level: 22
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+Magnemite
+Level: 24
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Supersonic
 - Shock Wave
 - Thunder Wave
 - Sonic Boom
 
 Manectric @ Sitrus Berry
-Level: 24
+Level: 26
+Ability: Lightning Rod
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 - Quick Attack
 - Thunder Wave
 - Shock Wave
-- Howl
+- Bite
 
 === TRAINER_FLANNERY_1 ===
 Name: FLANNERY
@@ -5139,7 +5145,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Ralts
-Level: 17
+Level: 18
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_PAUL ===
@@ -5152,15 +5158,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Numel
-Level: 15
+Level: 17
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 Oddish
-Level: 15
+Level: 17
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 Wingull
-Level: 15
+Level: 17
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_JERRY_2 ===
@@ -5258,11 +5264,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Shroomish
-Level: 16
+Level: 17
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 Beautifly
-Level: 16
+Level: 17
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_KAREN_2 ===
@@ -5674,11 +5680,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Plusle @ Oran Berry
-Level: 14
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Minun @ Oran Berry
-Level: 14
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ISABEL_2 ===
@@ -6015,7 +6021,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Zigzagoon
-Level: 17
+Level: 19
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Headbutt
 - Sand Attack
@@ -6023,7 +6029,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Thunderbolt
 
 Gulpin
-Level: 17
+Level: 19
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Amnesia
 - Sludge
@@ -6190,11 +6196,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Zigzagoon
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Zigzagoon
-Level: 16
+Poochyena
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ALLEN ===
@@ -6224,11 +6230,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Aron
-Level: 15
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Electrike
-Level: 13
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WALLACE ===
@@ -6358,16 +6364,16 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
-Level: 10
+Staryu
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Tentacool
-Level: 7
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Magikarp
-Level: 10
+Corphish
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_NED ===
@@ -6380,7 +6386,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Tentacool
-Level: 11
+Level: 15
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_DALE ===
@@ -6392,20 +6398,16 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 11
+Carvanha
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Wailmer
-Level: 14
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tentacool
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Wailmer
-Level: 14
+Chinchou
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_NOLAN ===
@@ -6461,11 +6463,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Wailmer
-Level: 25
+Level: 32
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 Tentacruel
-Level: 25
+Level: 32
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_ELLIOT_2 ===
@@ -6606,17 +6608,9 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Voltorb
-Level: 6
+Gulpin
+Level: 19
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-Voltorb
-Level: 6
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-Magnemite
-Level: 14
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_ANTHONY ===
 Name: ANTHONY
@@ -6628,11 +6622,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Magnemite
-Level: 14
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Magnemite
-Level: 14
+Voltorb
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BENJAMIN_1 ===
@@ -6644,8 +6638,8 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Magnemite
-Level: 16
+Pikachu
+Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BENJAMIN_2 ===
@@ -6710,7 +6704,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Magnemite
-Level: 16
+Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JASMINE ===
@@ -6723,15 +6717,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Magnemite
-Level: 14
+Level: 17
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Magnemite
-Level: 14
+Electrike
+Level: 17
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Voltorb
-Level: 6
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ABIGAIL_2 ===
@@ -8130,7 +8124,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Wailmer
-Level: 26
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DENISE ===
@@ -8142,13 +8136,14 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
-Level: 25
+Goldeen
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Goldeen
-Level: 25
+Pelipper
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
 
 === TRAINER_BETH ===
 Name: BETH
@@ -8160,7 +8155,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Goldeen
-Level: 26
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TARA ===
@@ -8172,12 +8167,12 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Horsea
-Level: 25
+Seadra
+Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Marill
-Level: 25
+Azumarill
+Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MISSY ===
@@ -8189,8 +8184,8 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Goldeen
-Level: 26
+Seaking
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ALICE ===
@@ -8203,15 +8198,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Goldeen
-Level: 24
+Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Wingull
-Level: 24
+Pelipper
+Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Goldeen
-Level: 24
+Seaking
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JENNY_1 ===
@@ -8933,11 +8928,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Wingull
-Level: 12
+Level: 16
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 Machop
-Level: 12
+Level: 16
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_EDMOND ===
@@ -8950,7 +8945,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Wingull
-Level: 13
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ERNEST_1 ===
@@ -8980,15 +8975,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Wingull
-Level: 11
+Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 11
+Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Tentacool
-Level: 11
+Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PHILLIP ===
@@ -9325,11 +9320,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Lombre
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nuzleaf
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HECTOR ===
@@ -9499,7 +9494,8 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Treecko
 Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ability: Unburden
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_BRENDAN_ROUTE_110_MUDKIP ===
 Name: BRENDAN
@@ -9511,16 +9507,22 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Grovyle
-Level: 20
+Level: 19
+Ability: Flame Body
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+
+Chinchou
+Level: 19
+Ability: Water Absorb
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+
+Treecko
+Level: 20
+Ability: Unburden
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 
 === TRAINER_BRENDAN_ROUTE_119_MUDKIP ===
 Name: BRENDAN
@@ -9550,11 +9552,14 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Setup First Turn
+AI: Check Bad Move / Try To Faint / Check Viability
 
 Torchic
 Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ability: Speed Boost
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Growl
+- Scratch
 
 === TRAINER_BRENDAN_ROUTE_110_TREECKO ===
 Name: BRENDAN
@@ -9565,17 +9570,22 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Combusken
-Level: 20
+Chinchou
+Level: 19
+Ability: Volt Absorb
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+
+Nuzleaf
+Level: 19
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+
+Torchic
+Level: 20
+Ability: Speed Boost
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 
 === TRAINER_BRENDAN_ROUTE_119_TREECKO ===
 Name: BRENDAN
@@ -9609,7 +9619,8 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Mudkip
 Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ability: Damp
+IVs: 24 HP / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_BRENDAN_ROUTE_110_TORCHIC ===
 Name: BRENDAN
@@ -9621,16 +9632,22 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Marshtomp
-Level: 20
+Level: 19
+Ability: Swift Swim
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+
+Taillow
+Level: 19
+Ability: Guts
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+
+Mudkip
+Level: 20
+Ability: Damp
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 
 === TRAINER_BRENDAN_ROUTE_119_TORCHIC ===
 Name: BRENDAN
@@ -9664,6 +9681,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Torchic
 Level: 5
+Ability: Speed Boost
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Growl
 - Scratch
@@ -9677,17 +9695,30 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Grovyle
-Level: 20
+Beautifly
+Level: 19
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sleep Powder
+- Stun Spore
+- Signal Beam
+- Air Cutter
+
+Bulbasaur
+Level: 19
+Ability: Chlorophyll
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Giga Drain
+- Sleep Powder
+- Leech Seed
+- Headbutt
+
+Torchic
+Level: 20
+Ability: Speed Boost
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 
 === TRAINER_MAY_ROUTE_119_MUDKIP ===
 Name: MAY
@@ -9721,7 +9752,8 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Torchic
 Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ability: Speed Boost
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Growl
 - Scratch
 
@@ -9734,17 +9766,30 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Combusken
-Level: 20
+Beautifly
+Level: 19
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sleep Powder
+- Stun Spore
+- Signal Beam
+- Air Cutter
+
+Bulbasaur
+Level: 19
+Ability: Chlorophyll
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Giga Drain
+- Sleep Powder
+- Leech Seed
+- Headbutt
+
+Torchic
+Level: 20
+Ability: Speed Boost
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 
 === TRAINER_MAY_ROUTE_119_TREECKO ===
 Name: MAY
@@ -9778,7 +9823,8 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Torchic
 Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ability: Speed Boost
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Growl
 - Scratch
 
@@ -9791,17 +9837,30 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Marshtomp
-Level: 20
+Beautifly
+Level: 19
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sleep Powder
+- Stun Spore
+- Signal Beam
+- Air Cutter
+
+Bulbasaur
+Level: 19
+Ability: Chlorophyll
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Giga Drain
+- Sleep Powder
+- Leech Seed
+- Headbutt
+
+Torchic
+Level: 20
+Ability: Speed Boost
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 
 === TRAINER_MAY_ROUTE_119_TORCHIC ===
 Name: MAY
@@ -10847,10 +10906,13 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Nuzleaf
 Level: 16
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Torchic
 Level: 17
+Ability: Speed Boost
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
 Name: BRENDAN
@@ -10861,13 +10923,17 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Wingull
+Chinchou
 Level: 16
+Ability: Water Absorb
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Treecko
 Level: 17
+Ability: Unburden
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_PAXTON ===
 Name: PAXTON
@@ -10968,13 +11034,17 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Slugma
+Taillow
 Level: 16
+Ability: Guts
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Mudkip
 Level: 17
+Ability: Damp
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_MAY_RUSTBORO_MUDKIP ===
 Name: MAY
@@ -10988,10 +11058,13 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Beautifly
 Level: 16
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Torchic
 Level: 17
+Ability: Speed Boost
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_MAXIE_MAGMA_HIDEOUT ===
 Name: MAXIE
@@ -11187,7 +11260,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Oddish
-Level: 16
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ROBIN ===
@@ -11200,15 +11273,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Skitty
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shroomish
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Marill
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ANDREA ===
@@ -11845,7 +11918,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Goldeen
-Level: 13
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GERALD ===
@@ -11876,20 +11949,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Meditite
-Level: 17
+Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bide
+- Force Palm
 - Detect
-- Confusion
+- Psybeam
 - Thunder Punch
-
-Meditite
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunder Punch
-- Detect
-- Confusion
-- Meditate
 
 === TRAINER_DANIELLE ===
 Name: DANIELLE
@@ -12031,8 +12096,9 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Ralts
-Level: 16
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Level: 19
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 
 === TRAINER_WALLY_VR_2 ===
 Name: WALLY
@@ -12634,23 +12700,23 @@ Pic: Young Couple
 Gender: Male
 Music: Girl
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
 Dustox
-Level: 27
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Gust
+- Signal Beam
 - Psybeam
 - Toxic
 - Protect
 
 Beautifly
-Level: 27
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Gust
-- Mega Drain
+- Air Cutter
+- Signal Beam
 - Attract
-- Stun Spore
+- Sleep Powder
 
 === TRAINER_JOHN_AND_JAY_1 ===
 Name: JOHN & JAY
@@ -12889,11 +12955,11 @@ Double Battle: Yes
 AI: Check Bad Move
 
 Goldeen
-Level: 27
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tentacool
-Level: 25
+Tentacruel
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHRIS ===
@@ -12982,7 +13048,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Marill
-Level: 13
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHANDLER ===
@@ -12995,11 +13061,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Tentacool
-Level: 12
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tentacool
-Level: 12
+Corphish
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_KALEB ===
@@ -13012,11 +13078,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Minun @ Oran Berry
-Level: 14
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Plusle @ Oran Berry
-Level: 14
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JOSEPH ===
@@ -13029,11 +13095,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Electrike
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ALYSSA ===
@@ -13046,7 +13112,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Magnemite
-Level: 15
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MARCOS ===
@@ -13608,8 +13674,8 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Staryu
-Level: 26
+Starmie
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CORY_1 ===
@@ -13621,16 +13687,16 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
-Level: 24
+Pelipper
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Machop
-Level: 24
+Machoke
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tentacool
-Level: 24
+Tentacruel
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CAROLINA ===
@@ -13639,20 +13705,19 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Manectric
-Level: 24
+Level: 31
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Swellow
-Level: 24
+Level: 31
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Manectric
-Level: 24
+Electrode
+Level: 31
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_ELIJAH ===
@@ -13665,11 +13730,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Skarmory
-Level: 25
+Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Skarmory
-Level: 25
+Swellow
+Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CELIA ===
@@ -14123,10 +14188,13 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Beautifly
 Level: 16
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Torchic
 Level: 17
+Ability: Speed Boost
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_MAY_RUSTBORO_TORCHIC ===
 Name: MAY
@@ -14140,10 +14208,13 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Beautifly
 Level: 16
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Torchic
 Level: 17
+Ability: Speed Boost
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_ROXANNE_2 ===
 Name: ROXANNE
@@ -15819,18 +15890,20 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Illumise
-Level: 17
+Level: 19
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Shock Wave
-- Quick Attack
-- Charm
+- U-turn
+- Stun Spore
+- Sleep Powder
 
 Volbeat
-Level: 17
+Level: 19
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Shock Wave
-- Quick Attack
-- Confuse Ray
+- Fury Cutter
+- Stun Spore
+- Sleep Powder
 
 === TRAINER_DARIUS ===
 Name: DARIUS
