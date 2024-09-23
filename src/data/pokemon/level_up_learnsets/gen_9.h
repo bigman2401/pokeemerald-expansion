@@ -6498,6 +6498,7 @@ static const struct LevelUpMove sSkarmoryLevelUpLearnset[] = {
     LEVEL_UP_MOVE(36, MOVE_DRILL_PECK),
     LEVEL_UP_MOVE(46, MOVE_BRAVE_BIRD),
     LEVEL_UP_MOVE(52, MOVE_IRON_DEFENSE),
+    LEVEL_UP_MOVE(52, MOVE_BODY_PRESS),
     LEVEL_UP_END
 };
 #endif //P_FAMILY_SKARMORY
