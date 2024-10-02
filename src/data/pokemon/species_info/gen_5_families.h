@@ -10240,7 +10240,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
     [SPECIES_MANDIBUZZ] =
     {
         .baseHP        = 110,
-        .baseAttack    = 65,
+        .baseAttack    = 75,
         .baseDefense   = 105,
         .baseSpeed     = 80,
         .baseSpAttack  = 55,

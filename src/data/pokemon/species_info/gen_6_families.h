@@ -3180,10 +3180,10 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
     {
         .baseHP        = 65,
         .baseAttack    = 75,
-        .baseDefense   = 90,
+        .baseDefense   = 100,
         .baseSpeed     = 44,
         .baseSpAttack  = 97,
-        .baseSpDefense = 123,
+        .baseSpDefense = 133,
         .types = MON_TYPES(TYPE_POISON, TYPE_DRAGON),
         .catchRate = 55,
         .expYield = 173,
