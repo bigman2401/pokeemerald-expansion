@@ -290,45 +290,6 @@ Azumarill
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_SEAFLOOR_CAVERN_1 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
-
-Poochyena
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_SEAFLOOR_CAVERN_2 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
-
-Carvanha
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_SEAFLOOR_CAVERN_3 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
-
-Zubat
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_GRUNT_PETALBURG_WOODS ===
 Name: GRUNT
 Class: Team Aqua
@@ -340,19 +301,6 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Poochyena
 Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_SEAFLOOR_CAVERN_4 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt F
-Gender: Female
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
-
-Carvanha
-Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_RUSTURF_TUNNEL ===
@@ -397,45 +345,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Carvanha
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_SHELLY_SEAFLOOR_CAVERN ===
-Name: SHELLY
-Class: Aqua Admin
-Pic: Aqua Admin F
-Gender: Female
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Sharpedo
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Mightyena
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_ARCHIE ===
-Name: ARCHIE
-Class: Aqua Leader
-Pic: Aqua Leader Archie
-Gender: Male
-Music: Aqua
-Items: Super Potion / Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Mightyena
-Level: 41
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-Crobat
-Level: 41
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-Sharpedo
-Level: 43
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_DAISY ===
 Name: DAISY
@@ -2310,40 +2219,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sharpedo
 Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BARRY ===
-Name: BARRY
-Class: Swimmer M
-Pic: Swimmer M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Gyarados
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_DEAN ===
-Name: DEAN
-Class: Swimmer M
-Pic: Swimmer M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Carvanha
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Wingull
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Carvanha
-Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_RODNEY ===
@@ -5234,53 +5109,6 @@ Dodrio
 Level: 37
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-=== TRAINER_CAMDEN ===
-Name: CAMDEN
-Class: Triathlete
-Pic: Swimming Triathlete M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Staryu
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Staryu
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_ISAIAH_1 ===
-Name: ISAIAH
-Class: Triathlete
-Pic: Swimming Triathlete M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Staryu
-Level: 35
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_PABLO_1 ===
-Name: PABLO
-Class: Triathlete
-Pic: Swimming Triathlete M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Staryu
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Staryu
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_CHASE ===
 Name: CHASE
 Class: Triathlete
@@ -5298,88 +5126,6 @@ Staryu
 Level: 34
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-=== TRAINER_ISAIAH_2 ===
-Name: ISAIAH
-Class: Triathlete
-Pic: Swimming Triathlete M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Staryu
-Level: 39
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-=== TRAINER_ISAIAH_3 ===
-Name: ISAIAH
-Class: Triathlete
-Pic: Swimming Triathlete M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Staryu
-Level: 42
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-=== TRAINER_ISAIAH_4 ===
-Name: ISAIAH
-Class: Triathlete
-Pic: Swimming Triathlete M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Starmie
-Level: 45
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-=== TRAINER_ISAIAH_5 ===
-Name: ISAIAH
-Class: Triathlete
-Pic: Swimming Triathlete M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Starmie
-Level: 48
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-=== TRAINER_ISOBEL ===
-Name: ISOBEL
-Class: Triathlete
-Pic: Swimming Triathlete F
-Gender: Female
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Staryu
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_DONNY ===
-Name: DONNY
-Class: Triathlete
-Pic: Swimming Triathlete F
-Gender: Female
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Wingull
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Staryu
-Level: 34
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
-
 === TRAINER_TALIA ===
 Name: TALIA
 Class: Triathlete
@@ -5391,19 +5137,6 @@ AI: Check Bad Move
 
 Staryu
 Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_KATELYN_1 ===
-Name: KATELYN
-Class: Triathlete
-Pic: Swimming Triathlete F
-Gender: Female
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Staryu
-Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ALLISON ===
@@ -5422,58 +5155,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Staryu
 Level: 33
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-
-=== TRAINER_KATELYN_2 ===
-Name: KATELYN
-Class: Triathlete
-Pic: Swimming Triathlete F
-Gender: Female
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Staryu
-Level: 39
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-=== TRAINER_KATELYN_3 ===
-Name: KATELYN
-Class: Triathlete
-Pic: Swimming Triathlete F
-Gender: Female
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Staryu
-Level: 42
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-=== TRAINER_KATELYN_4 ===
-Name: KATELYN
-Class: Triathlete
-Pic: Swimming Triathlete F
-Gender: Female
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Starmie
-Level: 45
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-=== TRAINER_KATELYN_5 ===
-Name: KATELYN
-Class: Triathlete
-Pic: Swimming Triathlete F
-Gender: Female
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Starmie
-Level: 48
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_NICOLAS_1 ===
 Name: NICOLAS
@@ -9526,6 +9207,755 @@ Minun
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
+=== TRAINER_AIDAN ===
+Name: AIDAN
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move
+
+Swellow
+Level: 41
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Skarmory
+Level: 41
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_ATHENA ===
+Name: ATHENA
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Linoone
+Level: 41
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Surf
+- Knock Off
+- Facade
+- Quick Attack
+
+Manectric
+Level: 41
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Thunder
+- Thunder Wave
+- Quick Attack
+- Thunderbolt
+
+=== TRAINER_JONAH ===
+Name: JONAH
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Wailmer
+Level: 41
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Tentacruel
+Level: 41
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Sharpedo
+Level: 41
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_ROGER ===
+Name: ROGER
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Gyarados
+Level: 42
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_HENRY ===
+Name: HENRY
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Seadra
+Level: 41
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Tentacruel
+Level: 41
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CAMDEN ===
+Name: CAMDEN
+Class: Triathlete
+Pic: Swimming Triathlete M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Staryu
+Level: 40
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Starmie
+Level: 41
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_KOJI_1 ===
+Name: KOJI
+Class: Black Belt
+Pic: Black Belt
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Machoke
+Level: 42
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_KOJI_2 ===
+Name: KOJI
+Class: Black Belt
+Pic: Black Belt
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Machoke
+Level: 37
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Machoke
+Level: 37
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+=== TRAINER_KOJI_3 ===
+Name: KOJI
+Class: Black Belt
+Pic: Black Belt
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Makuhita
+Level: 39
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+Machoke
+Level: 39
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+Machoke
+Level: 39
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+=== TRAINER_KOJI_4 ===
+Name: KOJI
+Class: Black Belt
+Pic: Black Belt
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Hariyama
+Level: 41
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Machoke
+Level: 41
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Machoke
+Level: 41
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+=== TRAINER_KOJI_5 ===
+Name: KOJI
+Class: Black Belt
+Pic: Black Belt
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Hariyama
+Level: 43
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+Machamp
+Level: 43
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+Machamp
+Level: 43
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+=== TRAINER_DONNY ===
+Name: DONNY
+Class: Triathlete
+Pic: Swimming Triathlete F
+Gender: Female
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Pelipper
+Level: 41
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Starmie
+Level: 41
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+
+=== TRAINER_RUBEN ===
+Name: RUBEN
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Nosepass
+Level: 41
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Shiftry
+Level: 41
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_ALEXA ===
+Name: ALEXA
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Azumarill
+Level: 41
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Bellossom
+Level: 41
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_WAYNE ===
+Name: WAYNE
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Tentacruel
+Level: 41
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gyarados
+Level: 41
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_ISAIAH_1 ===
+Name: ISAIAH
+Class: Triathlete
+Pic: Swimming Triathlete M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Starmie
+Level: 42
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_ISAIAH_2 ===
+Name: ISAIAH
+Class: Triathlete
+Pic: Swimming Triathlete M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Staryu
+Level: 39
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+=== TRAINER_ISAIAH_3 ===
+Name: ISAIAH
+Class: Triathlete
+Pic: Swimming Triathlete M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Staryu
+Level: 42
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+=== TRAINER_ISAIAH_4 ===
+Name: ISAIAH
+Class: Triathlete
+Pic: Swimming Triathlete M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Starmie
+Level: 45
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+=== TRAINER_ISAIAH_5 ===
+Name: ISAIAH
+Class: Triathlete
+Pic: Swimming Triathlete M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Starmie
+Level: 48
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+=== TRAINER_KATELYN_1 ===
+Name: KATELYN
+Class: Triathlete
+Pic: Swimming Triathlete F
+Gender: Female
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Ludicolo
+Level: 42
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_KATELYN_2 ===
+Name: KATELYN
+Class: Triathlete
+Pic: Swimming Triathlete F
+Gender: Female
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Staryu
+Level: 39
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+=== TRAINER_KATELYN_3 ===
+Name: KATELYN
+Class: Triathlete
+Pic: Swimming Triathlete F
+Gender: Female
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Staryu
+Level: 42
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+=== TRAINER_KATELYN_4 ===
+Name: KATELYN
+Class: Triathlete
+Pic: Swimming Triathlete F
+Gender: Female
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Starmie
+Level: 45
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+=== TRAINER_KATELYN_5 ===
+Name: KATELYN
+Class: Triathlete
+Pic: Swimming Triathlete F
+Gender: Female
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Starmie
+Level: 48
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+=== TRAINER_CARLEE ===
+Name: CARLEE
+Class: Swimmer F
+Pic: Swimmer F
+Gender: Female
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Seaking
+Level: 42
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_HARRISON ===
+Name: HARRISON
+Class: Swimmer M
+Pic: Swimmer M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Tentacruel
+Level: 42
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_GRUNT_SEAFLOOR_CAVERN_1 ===
+Name: GRUNT
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+
+Mightyena
+Level: 42
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_GRUNT_SEAFLOOR_CAVERN_2 ===
+Name: GRUNT
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+
+Carvanha
+Level: 42
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_GRUNT_SEAFLOOR_CAVERN_3 ===
+Name: GRUNT
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+
+Golbat
+Level: 42
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_GRUNT_SEAFLOOR_CAVERN_4 ===
+Name: GRUNT
+Class: Team Aqua
+Pic: Aqua Grunt F
+Gender: Female
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+
+Carvanha
+Level: 42
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_GRUNT_SEAFLOOR_CAVERN_5 ===
+Name: GRUNT
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+
+Mightyena
+Level: 41
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Golbat
+Level: 41
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+=== TRAINER_SHELLY_SEAFLOOR_CAVERN ===
+Name: SHELLY
+Class: Aqua Admin
+Pic: Aqua Admin F
+Gender: Female
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Mightyena
+Level: 44
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 18 Spe
+EVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+
+Sharpedo
+Level: 45
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 35 HP / 35 Atk / 35 Def / 35 SpA / 35 SpD / 35 Spe
+
+=== TRAINER_ARCHIE ===
+Name: ARCHIE
+Class: Aqua Leader
+Pic: Aqua Leader Archie
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Mightyena
+Level: 47
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 45 HP / 45 Atk / 45 Def / 45 SpA / 45 SpD / 45 Spe
+
+Crobat
+Level: 47
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 45 HP / 45 Atk / 45 Def / 45 SpA / 45 SpD / 45 Spe
+- Cross Poison
+- Toxic
+- Wing Attack
+- Leech Life 
+
+Sharpedo
+Level: 48
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+EVs: 50 HP / 50 Atk / 50 Def / 50 SpA / 50 SpD / 50 Spe
+- Liquidation 
+- Ice Fang
+- Crunch
+- Swagger
+
+=== TRAINER_LEONARDO ===
+Name: LEONARDO
+Class: Swimmer M
+Pic: Swimmer M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Sharpedo
+Level: 43
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_ISOBEL ===
+Name: ISOBEL
+Class: Triathlete
+Pic: Swimming Triathlete F
+Gender: Female
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Starmie
+Level: 43
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_DEAN ===
+Name: DEAN
+Class: Swimmer M
+Pic: Swimmer M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Sharpedo
+Level: 42
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pelipper
+Level: 42
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_NIKKI ===
+Name: NIKKI
+Class: Swimmer F
+Pic: Swimmer F
+Gender: Female
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Azumarill
+Level: 42
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Sealeo
+Level: 42
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BARRY ===
+Name: BARRY
+Class: Swimmer M
+Pic: Swimmer M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Gyarados
+Level: 43
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_SIENNA ===
+Name: SIENNA
+Class: Swimmer F
+Pic: Swimmer F
+Gender: Female
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Luvdisc
+Level: 43
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_PABLO_1 ===
+Name: PABLO
+Class: Triathlete
+Pic: Swimming Triathlete M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Staryu
+Level: 41
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Starmie
+Level: 42
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_PABLO_2 ===
+Name: PABLO
+Class: Triathlete
+Pic: Swimming Triathlete M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Staryu
+Level: 37
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Staryu
+Level: 37
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+=== TRAINER_PABLO_3 ===
+Name: PABLO
+Class: Triathlete
+Pic: Swimming Triathlete M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Wingull
+Level: 39
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+Staryu
+Level: 39
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+Staryu
+Level: 39
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+=== TRAINER_PABLO_4 ===
+Name: PABLO
+Class: Triathlete
+Pic: Swimming Triathlete M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Pelipper
+Level: 41
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Staryu
+Level: 41
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Staryu
+Level: 41
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+=== TRAINER_PABLO_5 ===
+Name: PABLO
+Class: Triathlete
+Pic: Swimming Triathlete M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Pelipper
+Level: 43
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+Starmie
+Level: 43
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+Starmie
+Level: 43
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+=== TRAINER_BRENDA ===
+Name: BRENDA
+Class: Swimmer F
+Pic: Swimmer F
+Gender: Female
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Seaking
+Level: 43
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
 === TRAINER_DIANNE ===
 Name: DIANNE
 Class: Cooltrainer
@@ -10278,36 +10708,6 @@ Sandslash
 Level: 36
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-=== TRAINER_NIKKI ===
-Name: NIKKI
-Class: Swimmer F
-Pic: Swimmer F
-Gender: Female
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Marill
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Spheal
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BRENDA ===
-Name: BRENDA
-Class: Swimmer F
-Pic: Swimmer F
-Gender: Female
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Goldeen
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_KATIE ===
 Name: KATIE
 Class: Swimmer F
@@ -10362,23 +10762,6 @@ AI: Check Bad Move
 
 Azumarill
 Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_SIENNA ===
-Name: SIENNA
-Class: Swimmer F
-Pic: Swimmer F
-Gender: Female
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Luvdisc
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Luvdisc
-Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DEBRA ===
@@ -10443,19 +10826,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Luvdisc
 Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CARLEE ===
-Name: CARLEE
-Class: Swimmer F
-Pic: Swimmer F
-Gender: Female
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Seaking
-Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HEIDI ===
@@ -11909,23 +12279,6 @@ Roselia
 Level: 38
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-=== TRAINER_GRUNT_SEAFLOOR_CAVERN_5 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
-
-Mightyena
-Level: 35
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Golbat
-Level: 35
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
 === TRAINER_GRUNT_UNUSED ===
 Name: GRUNT
 Class: Team Magma
@@ -11998,57 +12351,6 @@ AI: Check Bad Move
 Pinsir
 Level: 16
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-=== TRAINER_LEONARDO ===
-Name: LEONARDO
-Class: Swimmer M
-Pic: Swimmer M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Carvanha
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_ATHENA ===
-Name: ATHENA
-Class: Cooltrainer
-Pic: Cooltrainer F
-Gender: Female
-Music: Cool
-Items: Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Manectric
-Level: 32
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunder
-- Thunder Wave
-- Quick Attack
-
-Linoone
-Level: 32
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Surf
-- Thief
-
-=== TRAINER_HARRISON ===
-Name: HARRISON
-Class: Swimmer M
-Pic: Swimmer M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Tentacruel
-Level: 35
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-
 
 === TRAINER_CLARENCE ===
 Name: CLARENCE
@@ -15015,152 +15317,6 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Psychic
 - Future Sight
 
-=== TRAINER_JONAH ===
-Name: JONAH
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Wailmer
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Tentacool
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Sharpedo
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_HENRY ===
-Name: HENRY
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Carvanha
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Tentacruel
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_ROGER ===
-Name: ROGER
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Magikarp
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Magikarp
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Gyarados
-Level: 35
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_ALEXA ===
-Name: ALEXA
-Class: Cooltrainer
-Pic: Cooltrainer F
-Gender: Female
-Music: Cool
-Items: Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Gloom
-Level: 34
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Azumarill
-Level: 34
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_RUBEN ===
-Name: RUBEN
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Items: Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Shiftry
-Level: 34
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Nosepass
-Level: 34
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_KOJI_1 ===
-Name: KOJI
-Class: Black Belt
-Pic: Black Belt
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Machoke
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_WAYNE ===
-Name: WAYNE
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Tentacool
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Tentacool
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Wailmer
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_AIDAN ===
-Name: AIDAN
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: Check Bad Move
-
-Swellow
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Skarmory
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_REED ===
 Name: REED
 Class: Swimmer M
@@ -16799,166 +16955,6 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Beldum
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_PABLO_2 ===
-Name: PABLO
-Class: Triathlete
-Pic: Swimming Triathlete M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Staryu
-Level: 37
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Staryu
-Level: 37
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-=== TRAINER_PABLO_3 ===
-Name: PABLO
-Class: Triathlete
-Pic: Swimming Triathlete M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Wingull
-Level: 39
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-Staryu
-Level: 39
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-Staryu
-Level: 39
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-=== TRAINER_PABLO_4 ===
-Name: PABLO
-Class: Triathlete
-Pic: Swimming Triathlete M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Pelipper
-Level: 41
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Staryu
-Level: 41
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Staryu
-Level: 41
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-=== TRAINER_PABLO_5 ===
-Name: PABLO
-Class: Triathlete
-Pic: Swimming Triathlete M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Pelipper
-Level: 43
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Starmie
-Level: 43
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Starmie
-Level: 43
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-=== TRAINER_KOJI_2 ===
-Name: KOJI
-Class: Black Belt
-Pic: Black Belt
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Machoke
-Level: 37
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Machoke
-Level: 37
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-=== TRAINER_KOJI_3 ===
-Name: KOJI
-Class: Black Belt
-Pic: Black Belt
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Makuhita
-Level: 39
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-Machoke
-Level: 39
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-Machoke
-Level: 39
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-=== TRAINER_KOJI_4 ===
-Name: KOJI
-Class: Black Belt
-Pic: Black Belt
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Hariyama
-Level: 41
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Machoke
-Level: 41
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Machoke
-Level: 41
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-=== TRAINER_KOJI_5 ===
-Name: KOJI
-Class: Black Belt
-Pic: Black Belt
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Hariyama
-Level: 43
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Machamp
-Level: 43
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Machamp
-Level: 43
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_MARIELA ===
 Name: MARIELA
