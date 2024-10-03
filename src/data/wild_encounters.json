@@ -663,7 +663,7 @@
             "encounter_rate": 20,
             "mons": [
               {
-               "min_level": 5,
+                "min_level": 5,
                 "max_level": 8,
                 "species": "SPECIES_SHROOMISH"
               },
