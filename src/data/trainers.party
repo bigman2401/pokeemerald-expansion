@@ -171,6 +171,603 @@ Level: 5
 Ability: Damp
 IVs: 27 HP / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
+=== TRAINER_GRUNT_PETALBURG_WOODS ===
+Name: GRUNT
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Poochyena
+Level: 9
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_IVAN ===
+Name: IVAN
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Corphish
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Psyduck
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_JOSH ===
+Name: JOSH
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Geodude
+Level: 10
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_MARC ===
+Name: MARC
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Geodude
+Level: 10
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+Phanpy
+Level: 10
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+=== TRAINER_TOMMY ===
+Name: TOMMY
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Geodude
+Level: 10
+IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+
+Sandshrew
+Level: 10
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_ROXANNE_1 ===
+Name: ROXANNE
+Class: Leader
+Pic: Leader Roxanne
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching 
+
+Geodude @ Oran Berry
+Level: 14
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe 
+- Tackle
+- Rollout
+- Rock Polish
+- Rock Tomb
+
+Nosepass @ Oran Berry
+Level: 15
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+- Block
+- Harden
+- Tackle
+- Rock Tomb
+
+=== TRAINER_ROXANNE_2 ===
+Name: ROXANNE
+Class: Leader
+Pic: Leader Roxanne
+Gender: Female
+Music: Female
+Items: Full Restore / Full Restore / Full Restore
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Golem
+Level: 32
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Rollout
+- Magnitude
+- Explosion
+
+Kabuto @ Sitrus Berry
+Level: 35
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Swords Dance
+- Ice Beam
+- Surf
+- Rock Slide
+
+Onix
+Level: 35
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Iron Tail
+- Explosion
+- Roar
+- Rock Slide
+
+Nosepass @ Sitrus Berry
+Level: 37
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Double Team
+- Explosion
+- Protect
+- Rock Slide
+
+=== TRAINER_ROXANNE_3 ===
+Name: ROXANNE
+Class: Leader
+Pic: Leader Roxanne
+Gender: Female
+Music: Female
+Items: Full Restore / Full Restore / Full Restore
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Omanyte
+Level: 37
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Ice Beam
+- Rock Slide
+- Surf
+
+Golem
+Level: 37
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Rollout
+- Magnitude
+- Explosion
+
+Kabutops @ Sitrus Berry
+Level: 40
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Swords Dance
+- Ice Beam
+- Surf
+- Rock Slide
+
+Onix
+Level: 40
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Iron Tail
+- Explosion
+- Roar
+- Rock Slide
+
+Nosepass @ Sitrus Berry
+Level: 42
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Double Team
+- Explosion
+- Protect
+- Rock Slide
+
+=== TRAINER_ROXANNE_4 ===
+Name: ROXANNE
+Class: Leader
+Pic: Leader Roxanne
+Gender: Female
+Music: Female
+Items: Full Restore / Full Restore / Full Restore
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Omastar
+Level: 42
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Ice Beam
+- Rock Slide
+- Surf
+
+Golem
+Level: 42
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Rollout
+- Earthquake
+- Explosion
+
+Kabutops @ Sitrus Berry
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Swords Dance
+- Ice Beam
+- Surf
+- Rock Slide
+
+Onix
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Iron Tail
+- Explosion
+- Roar
+- Rock Slide
+
+Nosepass @ Sitrus Berry
+Level: 47
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Double Team
+- Explosion
+- Protect
+- Rock Slide
+
+=== TRAINER_ROXANNE_5 ===
+Name: ROXANNE
+Class: Leader
+Pic: Leader Roxanne
+Gender: Female
+Music: Female
+Items: Full Restore / Full Restore / Full Restore
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Aerodactyl
+Level: 47
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rock Slide
+- Hyper Beam
+- Supersonic
+- Protect
+
+Golem
+Level: 47
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Focus Punch
+- Rollout
+- Earthquake
+- Explosion
+
+Omastar
+Level: 47
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Ice Beam
+- Rock Slide
+- Surf
+
+Kabutops @ Sitrus Berry
+Level: 50
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Swords Dance
+- Ice Beam
+- Surf
+- Rock Slide
+
+Steelix
+Level: 50
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Iron Tail
+- Explosion
+- Roar
+- Rock Slide
+
+Nosepass @ Sitrus Berry
+Level: 52
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Double Team
+- Explosion
+- Protect
+- Rock Slide
+
+=== TRAINER_JOEY ===
+Name: JOEY
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Machop
+Level: 12
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_JOSE ===
+Name: JOSE
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Beautifly
+Level: 11
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Dustox
+Level: 11
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+=== TRAINER_KAREN_1 ===
+Name: KAREN
+Class: School Kid
+Pic: School Kid F
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move
+
+Shroomish
+Level: 12
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+=== TRAINER_KAREN_2 ===
+Name: KAREN
+Class: School Kid
+Pic: School Kid F
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move
+
+Shroomish
+Level: 26
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+Whismur
+Level: 26
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+=== TRAINER_KAREN_3 ===
+Name: KAREN
+Class: School Kid
+Pic: School Kid F
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move
+
+Shroomish
+Level: 29
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Loudred
+Level: 29
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+=== TRAINER_KAREN_4 ===
+Name: KAREN
+Class: School Kid
+Pic: School Kid F
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move
+
+Breloom
+Level: 32
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+Loudred
+Level: 32
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+=== TRAINER_KAREN_5 ===
+Name: KAREN
+Class: School Kid
+Pic: School Kid F
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move
+
+Breloom
+Level: 35
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Exploud
+Level: 35
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+=== TRAINER_JOHNSON ===
+Name: JOHNSON
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Oddish
+Level: 11
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Budew
+Level: 11
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CLARK ===
+Name: CLARK
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Geodude
+Level: 12
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_DEVAN ===
+Name: DEVAN
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Geodude
+Level: 11
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Sandshrew
+Level: 11
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_GRUNT_RUSTURF_TUNNEL ===
+Name: GRUNT
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+
+Poochyena
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BRENDAN_RUSTBORO_TORCHIC ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Taillow
+Level: 16
+Ability: Guts
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+Mudkip
+Level: 17
+Ability: Damp
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+=== TRAINER_BRENDAN_RUSTBORO_TREECKO ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Nuzleaf
+Level: 16
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+Torchic
+Level: 17
+Ability: Speed Boost
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+=== TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Chinchou
+Level: 16
+Ability: Water Absorb
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+Treecko
+Level: 17
+Ability: Unburden
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+=== TRAINER_MAY_RUSTBORO_MUDKIP ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Beautifly
+Level: 16
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+Torchic
+Level: 17
+Ability: Speed Boost
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+=== TRAINER_MAY_RUSTBORO_TREECKO ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Beautifly
+Level: 16
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+Torchic
+Level: 17
+Ability: Speed Boost
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+=== TRAINER_MAY_RUSTBORO_TORCHIC ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Beautifly
+Level: 16
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+Torchic
+Level: 17
+Ability: Speed Boost
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
 === TRAINER_ISABELLE ===
 Name: ISABELLE
 Class: Swimmer F
@@ -288,32 +885,6 @@ AI: Check Bad Move
 
 Azumarill
 Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_PETALBURG_WOODS ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Poochyena
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_RUSTURF_TUNNEL ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
-
-Poochyena
-Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JOCELYN ===
@@ -2525,33 +3096,6 @@ Zangoose
 Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_ROXANNE_1 ===
-Name: ROXANNE
-Class: Leader
-Pic: Leader Roxanne
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Geodude @ Oran Berry
-Level: 14
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe 
-- Tackle
-- Rollout
-- Rock Polish
-- Rock Tomb
-
-Nosepass @ Oran Berry
-Level: 15
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
-- Block
-- Harden
-- Tackle
-- Rock Tomb
-
 === TRAINER_WATTSON_1 ===
 Name: WATTSON
 Class: Leader
@@ -3160,19 +3704,6 @@ Medicham
 Level: 34
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-=== TRAINER_KAREN_1 ===
-Name: KAREN
-Class: School Kid
-Pic: School Kid F
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Shroomish
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
 === TRAINER_GEORGIA ===
 Name: GEORGIA
 Class: School Kid
@@ -3189,74 +3720,6 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 Beautifly
 Level: 17
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-=== TRAINER_KAREN_2 ===
-Name: KAREN
-Class: School Kid
-Pic: School Kid F
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Shroomish
-Level: 26
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-Whismur
-Level: 26
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-=== TRAINER_KAREN_3 ===
-Name: KAREN
-Class: School Kid
-Pic: School Kid F
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Shroomish
-Level: 29
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Loudred
-Level: 29
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-=== TRAINER_KAREN_4 ===
-Name: KAREN
-Class: School Kid
-Pic: School Kid F
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Breloom
-Level: 32
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Loudred
-Level: 32
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-=== TRAINER_KAREN_5 ===
-Name: KAREN
-Class: School Kid
-Pic: School Kid F
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Breloom
-Level: 35
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Exploud
-Level: 35
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_ANNA_AND_MEG_1 ===
 Name: ANNA & MEG
@@ -3668,49 +4131,6 @@ Seedot
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_JOSH ===
-Name: JOSH
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Geodude
-Level: 10
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_TOMMY ===
-Name: TOMMY
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Geodude
-Level: 10
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-
-Sandshrew
-Level: 10
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-=== TRAINER_JOEY ===
-Name: JOEY
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Machop
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_BEN ===
 Name: BEN
 Class: Youngster
@@ -3878,23 +4298,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magikarp
 Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_IVAN ===
-Name: IVAN
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Corphish
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Psyduck
-Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ELLIOT_1 ===
@@ -12968,23 +13371,6 @@ Zubat
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_MARC ===
-Name: MARC
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Geodude
-Level: 10
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-Phanpy
-Level: 10
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-
 === TRAINER_BRENDEN ===
 Name: BRENDEN
 Class: Sailor
@@ -13037,47 +13423,6 @@ Girafarig
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_BRENDAN_RUSTBORO_TREECKO ===
-Name: BRENDAN
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Nuzleaf
-Level: 16
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-Torchic
-Level: 17
-Ability: Speed Boost
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-=== TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
-Name: BRENDAN
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Chinchou
-Level: 16
-Ability: Water Absorb
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-Treecko
-Level: 17
-Ability: Unburden
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
 === TRAINER_GRUNT_WEATHER_INST_5 ===
 Name: GRUNT
 Class: Team Aqua
@@ -13094,47 +13439,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Poochyena
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BRENDAN_RUSTBORO_TORCHIC ===
-Name: BRENDAN
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Taillow
-Level: 16
-Ability: Guts
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-Mudkip
-Level: 17
-Ability: Damp
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-=== TRAINER_MAY_RUSTBORO_MUDKIP ===
-Name: MAY
-Class: Rival
-Pic: May
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Beautifly
-Level: 16
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-Torchic
-Level: 17
-Ability: Speed Boost
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_TIANA ===
 Name: TIANA
@@ -13687,23 +13991,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Illumise
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_JOSE ===
-Name: JOSE
-Class: Bug Catcher
-Pic: Bug Catcher
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Beautifly
-Level: 11
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Dustox
-Level: 11
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_JAMES_1 ===
 Name: JAMES
@@ -15599,19 +15886,6 @@ Graveler
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_CLARK ===
-Name: CLARK
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Geodude
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_MIKE_1 ===
 Name: MIKE
 Class: Hiker
@@ -16252,40 +16526,6 @@ Swellow
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_DEVAN ===
-Name: DEVAN
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Geodude
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Sandshrew
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_JOHNSON ===
-Name: JOHNSON
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Oddish
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Budew
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_MELINA ===
 Name: MELINA
 Class: Triathlete
@@ -16324,246 +16564,6 @@ AI: Check Bad Move
 Meditite
 Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_MAY_RUSTBORO_TREECKO ===
-Name: MAY
-Class: Rival
-Pic: May
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Beautifly
-Level: 16
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-Torchic
-Level: 17
-Ability: Speed Boost
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-=== TRAINER_MAY_RUSTBORO_TORCHIC ===
-Name: MAY
-Class: Rival
-Pic: May
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Beautifly
-Level: 16
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-Torchic
-Level: 17
-Ability: Speed Boost
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-EVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-=== TRAINER_ROXANNE_2 ===
-Name: ROXANNE
-Class: Leader
-Pic: Leader Roxanne
-Gender: Female
-Music: Female
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Golem
-Level: 32
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Protect
-- Rollout
-- Magnitude
-- Explosion
-
-Kabuto @ Sitrus Berry
-Level: 35
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Swords Dance
-- Ice Beam
-- Surf
-- Rock Slide
-
-Onix
-Level: 35
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Iron Tail
-- Explosion
-- Roar
-- Rock Slide
-
-Nosepass @ Sitrus Berry
-Level: 37
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Double Team
-- Explosion
-- Protect
-- Rock Slide
-
-=== TRAINER_ROXANNE_3 ===
-Name: ROXANNE
-Class: Leader
-Pic: Leader Roxanne
-Gender: Female
-Music: Female
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Omanyte
-Level: 37
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Protect
-- Ice Beam
-- Rock Slide
-- Surf
-
-Golem
-Level: 37
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Protect
-- Rollout
-- Magnitude
-- Explosion
-
-Kabutops @ Sitrus Berry
-Level: 40
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Swords Dance
-- Ice Beam
-- Surf
-- Rock Slide
-
-Onix
-Level: 40
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Iron Tail
-- Explosion
-- Roar
-- Rock Slide
-
-Nosepass @ Sitrus Berry
-Level: 42
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Double Team
-- Explosion
-- Protect
-- Rock Slide
-
-=== TRAINER_ROXANNE_4 ===
-Name: ROXANNE
-Class: Leader
-Pic: Leader Roxanne
-Gender: Female
-Music: Female
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Omastar
-Level: 42
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Protect
-- Ice Beam
-- Rock Slide
-- Surf
-
-Golem
-Level: 42
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Protect
-- Rollout
-- Earthquake
-- Explosion
-
-Kabutops @ Sitrus Berry
-Level: 45
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Swords Dance
-- Ice Beam
-- Surf
-- Rock Slide
-
-Onix
-Level: 45
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Iron Tail
-- Explosion
-- Roar
-- Rock Slide
-
-Nosepass @ Sitrus Berry
-Level: 47
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Double Team
-- Explosion
-- Protect
-- Rock Slide
-
-=== TRAINER_ROXANNE_5 ===
-Name: ROXANNE
-Class: Leader
-Pic: Leader Roxanne
-Gender: Female
-Music: Female
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Aerodactyl
-Level: 47
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rock Slide
-- Hyper Beam
-- Supersonic
-- Protect
-
-Golem
-Level: 47
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Focus Punch
-- Rollout
-- Earthquake
-- Explosion
-
-Omastar
-Level: 47
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Protect
-- Ice Beam
-- Rock Slide
-- Surf
-
-Kabutops @ Sitrus Berry
-Level: 50
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Swords Dance
-- Ice Beam
-- Surf
-- Rock Slide
-
-Steelix
-Level: 50
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Iron Tail
-- Explosion
-- Roar
-- Rock Slide
-
-Nosepass @ Sitrus Berry
-Level: 52
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Double Team
-- Explosion
-- Protect
-- Rock Slide
 
 === TRAINER_WATTSON_2 ===
 Name: WATTSON

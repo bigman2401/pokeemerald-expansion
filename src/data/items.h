@@ -163,7 +163,7 @@ const struct Item gItemsInfo[] =
     [ITEM_POKE_BALL] =
     {
         .name = _("Poké Ball"),
-        .price = 200,
+        .price = 50,
         .description = COMPOUND_STRING(
             "A tool used for\n"
             "catching wild\n"
@@ -179,7 +179,7 @@ const struct Item gItemsInfo[] =
     [ITEM_GREAT_BALL] =
     {
         .name = _("Great Ball"),
-        .price = 600,
+        .price = 300,
         .description = COMPOUND_STRING(
             "A good Ball with a\n"
             "higher catch rate\n"
@@ -195,7 +195,7 @@ const struct Item gItemsInfo[] =
     [ITEM_ULTRA_BALL] =
     {
         .name = _("Ultra Ball"),
-        .price = (I_PRICE >= GEN_7) ? 800 : 1200,
+        .price = (I_PRICE >= GEN_7) ? 600 : 1200,
         .description = COMPOUND_STRING(
             "A better Ball with\n"
             "a higher catch rate\n"
@@ -2128,7 +2128,7 @@ const struct Item gItemsInfo[] =
     [ITEM_REPEL] =
     {
         .name = _("Repel"),
-        .price = (I_PRICE >= GEN_7) ? 400 : 350,
+        .price = (I_PRICE >= GEN_7) ? 200 : 350,
         .holdEffectParam = 100,
         .description = COMPOUND_STRING(
             "Repels weak wild\n"
@@ -2145,7 +2145,7 @@ const struct Item gItemsInfo[] =
     [ITEM_SUPER_REPEL] =
     {
         .name = _("Super Repel"),
-        .price = (I_PRICE >= GEN_7) ? 700 : 500,
+        .price = (I_PRICE >= GEN_7) ? 400 : 500,
         .holdEffectParam = 200,
         .description = COMPOUND_STRING(
             "Repels weak wild\n"
@@ -2162,7 +2162,7 @@ const struct Item gItemsInfo[] =
     [ITEM_MAX_REPEL] =
     {
         .name = _("Max Repel"),
-        .price = (I_PRICE >= GEN_7) ? 900 : 700,
+        .price = (I_PRICE >= GEN_7) ? 600 : 700,
         .holdEffectParam = 250,
         .description = COMPOUND_STRING(
             "Repels weak wild\n"
