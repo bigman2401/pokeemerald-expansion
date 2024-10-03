@@ -38,6 +38,4 @@ prefabs.json
 *.diff
 *.sym
 *.js
-src/data/map_group_count.h
 region_map/porymap_config.json
-tools/trainerproc/trainerproc
