@@ -7713,7 +7713,8 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .eggMoveLearnset = sFeebasEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_BEAUTY, 170, SPECIES_MILOTIC},
                                 {EVO_TRADE_ITEM, ITEM_PRISM_SCALE, SPECIES_MILOTIC},
-                                {EVO_ITEM, ITEM_PRISM_SCALE, SPECIES_MILOTIC}),
+                                {EVO_ITEM, ITEM_PRISM_SCALE, SPECIES_MILOTIC},
+                                {EVO_LEVEL, 45, SPECIES_MILOTIC}),
     },
 
     [SPECIES_MILOTIC] =
@@ -8451,7 +8452,8 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .levelUpLearnset = sDusclopsLevelUpLearnset,
         .teachableLearnset = sDusclopsTeachableLearnset,
         .evolutions = EVOLUTION({EVO_TRADE_ITEM, ITEM_REAPER_CLOTH, SPECIES_DUSKNOIR},
-                                {EVO_ITEM, ITEM_REAPER_CLOTH, SPECIES_DUSKNOIR}),
+                                {EVO_ITEM, ITEM_REAPER_CLOTH, SPECIES_DUSKNOIR},
+                                {EVO_LEVEL, 50, SPECIES_DUSKNOIR}),
     },
 
 #if P_GEN_4_CROSS_EVOS

@@ -1275,6 +1275,120 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bite 
 - Aqua Jet 
 
+=== TRAINER_ISABEL_1 ===
+Name: ISABEL
+Class: Pokefan
+Pic: Pokefan F
+Gender: Female
+Music: Twins
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Plusle @ Oran Berry
+Level: 17
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Helping Hand
+- Thunder Shock 
+- Swift
+- Thunder Wave 
+
+Minun @ Oran Berry
+Level: 17
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Helping Hand
+- Thunder Shock 
+- Swift
+- Thunder Wave 
+
+=== TRAINER_ISABEL_2 ===
+Name: ISABEL
+Class: Pokefan
+Pic: Pokefan F
+Gender: Female
+Music: Twins
+Double Battle: No
+AI: Check Bad Move
+
+Plusle @ Oran Berry
+Level: 26
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Minun @ Oran Berry
+Level: 26
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+=== TRAINER_ISABEL_3 ===
+Name: ISABEL
+Class: Pokefan
+Pic: Pokefan F
+Gender: Female
+Music: Twins
+Double Battle: No
+AI: Check Bad Move
+
+Plusle @ Oran Berry
+Level: 29
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+Minun @ Oran Berry
+Level: 29
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+=== TRAINER_ISABEL_4 ===
+Name: ISABEL
+Class: Pokefan
+Pic: Pokefan F
+Gender: Female
+Music: Twins
+Double Battle: No
+AI: Check Bad Move
+
+Plusle @ Oran Berry
+Level: 32
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Minun @ Oran Berry
+Level: 32
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+=== TRAINER_ISABEL_5 ===
+Name: ISABEL
+Class: Pokefan
+Pic: Pokefan F
+Gender: Female
+Music: Twins
+Double Battle: No
+AI: Check Bad Move
+
+Plusle @ Sitrus Berry
+Level: 35
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+Minun @ Sitrus Berry
+Level: 35
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+=== TRAINER_KALEB ===
+Name: KALEB
+Class: Pokefan
+Pic: Pokefan M
+Gender: Male
+Music: Twins
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Minun @ Oran Berry
+Level: 17
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Shock 
+- Swift 
+
+Plusle @ Oran Berry
+Level: 17
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Shock 
+- Swift 
+
 === TRAINER_BRENDAN_ROUTE_110_MUDKIP ===
 Name: BRENDAN
 Class: Rival
@@ -1470,18 +1584,18 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb
 Level: 24
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
+EVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Thunder Wave
 - Volt Switch
-- Self Destruct
 - Shock Wave
+- Sonic Boom
 
 Electrike
 Level: 24
 Ability: Lightning Rod
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
+EVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Shock Wave
 - Thunder Wave
 - Quick Attack
@@ -1489,8 +1603,8 @@ EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Magnemite
 Level: 24
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
+EVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Supersonic
 - Shock Wave
 - Thunder Wave
@@ -1499,8 +1613,8 @@ EVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 Manectric @ Sitrus Berry
 Level: 26
 Ability: Lightning Rod
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-EVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Quick Attack
 - Thunder Wave
 - Shock Wave
@@ -3744,7 +3858,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Combusken
 Level: 30
 Ability: Speed Boost
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
 EVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 - Overheat
 - Brick Break
@@ -3754,7 +3868,7 @@ EVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 Slugma
 Level: 30
 Ability: Flame Body
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
 EVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 - Overheat
 - Smog
@@ -3763,7 +3877,7 @@ EVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 
 Camerupt
 Level: 30
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 EVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 - Overheat
 - Earth Power
@@ -4582,91 +4696,6 @@ AI: Check Bad Move / Try To Faint
 Roselia @ Oran Berry
 Level: 23
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_ISABEL_1 ===
-Name: ISABEL
-Class: Pokefan
-Pic: Pokefan F
-Gender: Female
-Music: Twins
-Double Battle: No
-AI: Check Bad Move
-
-Plusle @ Oran Berry
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Minun @ Oran Berry
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_ISABEL_2 ===
-Name: ISABEL
-Class: Pokefan
-Pic: Pokefan F
-Gender: Female
-Music: Twins
-Double Battle: No
-AI: Check Bad Move
-
-Plusle @ Oran Berry
-Level: 26
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Minun @ Oran Berry
-Level: 26
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-=== TRAINER_ISABEL_3 ===
-Name: ISABEL
-Class: Pokefan
-Pic: Pokefan F
-Gender: Female
-Music: Twins
-Double Battle: No
-AI: Check Bad Move
-
-Plusle @ Oran Berry
-Level: 29
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-Minun @ Oran Berry
-Level: 29
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-=== TRAINER_ISABEL_4 ===
-Name: ISABEL
-Class: Pokefan
-Pic: Pokefan F
-Gender: Female
-Music: Twins
-Double Battle: No
-AI: Check Bad Move
-
-Plusle @ Oran Berry
-Level: 32
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Minun @ Oran Berry
-Level: 32
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-=== TRAINER_ISABEL_5 ===
-Name: ISABEL
-Class: Pokefan
-Pic: Pokefan F
-Gender: Female
-Music: Twins
-Double Battle: No
-AI: Check Bad Move
-
-Plusle @ Sitrus Berry
-Level: 35
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Minun @ Sitrus Berry
-Level: 35
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_VICKY ===
 Name: VICKY
@@ -16265,23 +16294,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Corphish
 Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_KALEB ===
-Name: KALEB
-Class: Pokefan
-Pic: Pokefan M
-Gender: Male
-Music: Twins
-Double Battle: No
-AI: Check Bad Move
-
-Minun @ Oran Berry
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Plusle @ Oran Berry
-Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JOSEPH ===

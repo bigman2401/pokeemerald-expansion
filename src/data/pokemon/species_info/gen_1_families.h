@@ -7382,7 +7382,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sKadabraLevelUpLearnset,
         .teachableLearnset = sKadabraTeachableLearnset,
         .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_ALAKAZAM},
-                                {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_ALAKAZAM}),
+                                {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_ALAKAZAM},
+                                {EVO_LEVEL, 36, SPECIES_ALAKAZAM}),
     },
 
 #define ALAKAZAM_SP_DEF (P_UPDATED_STATS >= GEN_6 ? 105 : 85) //Changed from 95
@@ -7660,7 +7661,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sMachokeLevelUpLearnset,
         .teachableLearnset = sMachokeTeachableLearnset,
         .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_MACHAMP},
-                                {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_MACHAMP}),
+                                {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_MACHAMP},
+                                {EVO_LEVEL, 40, SPECIES_MACHAMP}),
     },
 
 #if P_UPDATED_EXP_YIELDS >= GEN_8
@@ -8269,7 +8271,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sGravelerTeachableLearnset,
         .formSpeciesIdTable = sGravelerFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_GOLEM},
-                                {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_GOLEM}),
+                                {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_GOLEM},
+                                {EVO_LEVEL, 38, SPECIES_GOLEM}),
     },
 
     [SPECIES_GOLEM] =
@@ -13233,7 +13236,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sSeadraLevelUpLearnset,
         .teachableLearnset = sSeadraTeachableLearnset,
         .evolutions = EVOLUTION({EVO_TRADE_ITEM, ITEM_DRAGON_SCALE, SPECIES_KINGDRA},
-                                {EVO_ITEM, ITEM_DRAGON_SCALE, SPECIES_KINGDRA}),
+                                {EVO_ITEM, ITEM_DRAGON_SCALE, SPECIES_KINGDRA},
+                                {EVO_LEVEL, 43, SPECIES_KINGDRA}),
     },
 
 #if P_GEN_2_CROSS_EVOS
