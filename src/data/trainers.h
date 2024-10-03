@@ -28370,7 +28370,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 11437
-            .species = SPECIES_MRRIME,
+            .species = SPECIES_MR_RIME,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 11441
             .ev = TRAINER_PARTY_EVS(68, 68, 68, 68, 68, 68),
@@ -28715,7 +28715,7 @@ F_TRAINER_FEMALE |
 #line 11589
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 11588
-            .ability = ABILITY_COMPETETIVE,
+            .ability = ABILITY_COMPETITIVE,
 #line 11587
             .lvl = 62,
             .nature = NATURE_HARDY,

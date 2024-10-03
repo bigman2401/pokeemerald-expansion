@@ -40,23 +40,23 @@
         {
             {
 #line 15
-            .species = SPECIES_METANG,
+            .species = SPECIES_METAGROSS,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 19
-            .ev = TRAINER_PARTY_EVS(0, 252, 252, 0, 6, 0),
+            .ev = TRAINER_PARTY_EVS(85, 85, 85, 85, 85, 85),
 #line 18
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+            .iv = TRAINER_PARTY_IVS(29, 29, 29, 29, 29, 29),
 #line 17
-            .lvl = 42,
+            .lvl = 70,
 #line 16
             .nature = NATURE_BRAVE,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 20
-                MOVE_LIGHT_SCREEN,
-                MOVE_PSYCHIC,
-                MOVE_REFLECT,
-                MOVE_METAL_CLAW,
+                MOVE_IRON_DEFENSE,
+                MOVE_ZEN_HEADBUTT,
+                MOVE_BODY_PRESS,
+                MOVE_METEOR_MASH,
             },
             },
             {
@@ -64,19 +64,19 @@
             .species = SPECIES_SKARMORY,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 29
-            .ev = TRAINER_PARTY_EVS(252, 0, 0, 0, 6, 252),
+            .ev = TRAINER_PARTY_EVS(85, 85, 85, 85, 85, 85),
 #line 28
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+            .iv = TRAINER_PARTY_IVS(25, 25, 25, 25, 25, 25),
 #line 27
-            .lvl = 43,
+            .lvl = 69,
 #line 26
             .nature = NATURE_IMPISH,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 30
-                MOVE_TOXIC,
-                MOVE_AERIAL_ACE,
-                MOVE_PROTECT,
+                MOVE_ROOST,
+                MOVE_DRILL_PECK,
+                MOVE_BODY_PRESS,
                 MOVE_STEEL_WING,
             },
             },
@@ -85,20 +85,20 @@
             .species = SPECIES_AGGRON,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 39
-            .ev = TRAINER_PARTY_EVS(0, 252, 0, 0, 252, 6),
+            .ev = TRAINER_PARTY_EVS(85, 85, 85, 85, 85, 85),
 #line 38
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+            .iv = TRAINER_PARTY_IVS(25, 25, 25, 25, 25, 25),
 #line 37
-            .lvl = 44,
+            .lvl = 69,
 #line 36
             .nature = NATURE_ADAMANT,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 40
-                MOVE_THUNDER,
-                MOVE_PROTECT,
-                MOVE_SOLAR_BEAM,
-                MOVE_DRAGON_CLAW,
+                MOVE_IRON_DEFENSE,
+                MOVE_BODY_PRESS,
+                MOVE_IRON_HEAD,
+                MOVE_STONE_EDGE,
             },
             },
         },
