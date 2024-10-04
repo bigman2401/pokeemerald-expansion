@@ -71,6 +71,7 @@ LilycoveCity_DepartmentStore_2F_Pokemart2:
 	.2byte ITEM_DRAGON_SCALE
 	.2byte ITEM_REAPER_CLOTH
 	.2byte ITEM_PRISM_SCALE
+	.2byte ITEM_LINKING_CORD
 	.2byte ITEM_NONE
 	release
 	end

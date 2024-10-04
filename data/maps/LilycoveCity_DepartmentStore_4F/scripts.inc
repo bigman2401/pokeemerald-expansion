@@ -29,16 +29,9 @@ LilycoveCity_DepartmentStore_4F_Pokemart_AttackTMs:
 	.2byte ITEM_TM_THUNDER
 	.2byte ITEM_TM_BLIZZARD
 	.2byte ITEM_TM_HYPER_BEAM
-	.2byte ITEM_TM_HYDRO_PUMP
-	.2byte ITEM_TM_SCALD
-	.2byte ITEM_TM_DRAGON_PULSE
-	.2byte ITEM_TM_IRON_HEAD
-	.2byte ITEM_TM_DAZZLING_GLEAM
-	.2byte ITEM_TM_BUG_BUZZ
 	.2byte ITEM_TM_SHADOW_BALL
 	.2byte ITEM_TM_PSYCHIC
 	.2byte ITEM_TM_EARTHQUAKE
-	.2byte ITEM_TM_ENERGY_BALL
 	.2byte ITEM_NONE
 	release
 	end
