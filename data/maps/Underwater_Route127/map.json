@@ -29,7 +29,9 @@
       "direction": "down"
     }
   ],
-  "object_events": [],
+  "object_events": [
+
+  ],
   "warp_events": [
     {
       "x": 57,
@@ -46,14 +48,16 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "hidden_item",
       "x": 12,
       "y": 42,
       "elevation": 3,
-      "item": "ITEM_STAR_PIECE",
+      "item": "ITEM_DEEP_SEA_TOOTH",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_127_STAR_PIECE"
     },
     {
