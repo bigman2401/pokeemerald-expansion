@@ -175,13 +175,13 @@ RustboroCity_DevonCorp_3F_EventScript_GiveExpShare::
 
 RustboroCity_DevonCorp_3F_EventScript_GiveFrigibax::
 	msgbox RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter, MSGBOX_DEFAULT
-	delay 30
 	getpartysize
 	compare VAR_RESULT, 6
 	goto_if_eq RustboroCity_DevonCorp3F_EventScript_PlayerHasFullParty
 	givemon SPECIES_FRIGIBAX, 25, ITEM_NONE
 	msgbox RustboroCity_DevonCorp_3F_Text_ObtainedFrigibax, MSGBOX_DEFAULT
 	playfanfare MUS_OBTAIN_ITEM
+	waitfanfare
 	setflag FLAG_UNUSED_0x022
 	closemessage
 	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
@@ -270,9 +270,6 @@ RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter:
 	.string "MR. STONE: You delivered my LETTER?\n"
 	.string "Thank you kindly!\p"
 	.string "This is my way of thanking you.\n"
-	.string "I received this Pokémon from\l"
-	.string "CLAVELL of the NARANJA ACADEMY in\n"
-	.string "PALDEA, a dear friend of mine.\l"
 	.string "It should help you, a TRAINER.$"
 
 RustboroCity_DevonCorp_3F_Text_GoodLuck:
@@ -294,7 +291,7 @@ RustboroCity_DevonCorp_3F_Text_PlayerHasFullParty:
 	.string "Come back to me when you have room.$"
 
 RustboroCity_DevonCorp_3F_Text_ObtainedFrigibax:
-	.string "You obtained Frigibax!$"
+	.string "{HIGHLIGHT LIGHT_BLUE}You obtained Frigibax!$"
 
 RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
 	.string "MR. STONE: Since my youth, I've immersed\n"

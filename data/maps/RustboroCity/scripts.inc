@@ -926,7 +926,7 @@ RustboroCity_EventScript_Rayquaza::
 	givemon SPECIES_RAYQUAZA, 16, ITEM_NONE
 	playfanfare MUS_OBTAIN_ITEM
     waitfanfare
-	removeobject LOCALID_RAYQUAZA_RUSTBORO
+	removeobject 16
 	release 
 	end
 
