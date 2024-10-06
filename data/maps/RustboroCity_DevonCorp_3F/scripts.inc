@@ -175,10 +175,12 @@ RustboroCity_DevonCorp_3F_EventScript_GiveExpShare::
 
 RustboroCity_DevonCorp_3F_EventScript_GiveFrigibax::
 	msgbox RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter, MSGBOX_DEFAULT
+	delay 30
 	getpartysize
 	compare VAR_RESULT, 6
 	goto_if_eq RustboroCity_DevonCorp3F_EventScript_PlayerHasFullParty
 	givemon SPECIES_FRIGIBAX, 25, ITEM_NONE
+	msgbox RustboroCity_DevonCorp_3F_Text_ObtainedFrigibax, MSGBOX_DEFAULT
 	playfanfare MUS_OBTAIN_ITEM
 	setflag FLAG_UNUSED_0x022
 	closemessage
@@ -290,6 +292,9 @@ RustboroCity_DevonCorp_3F_Text_PlayerHasFullParty:
     .string "Oh! It looks like you have too many\n"
 	.string "Pokémon with you.\p"
 	.string "Come back to me when you have room.$"
+
+RustboroCity_DevonCorp_3F_Text_ObtainedFrigibax:
+	.string "You obtained Frigibax!$"
 
 RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
 	.string "MR. STONE: Since my youth, I've immersed\n"
