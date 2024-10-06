@@ -57,6 +57,40 @@ LittlerootTown_MaysHouse_2F_EventScript_WallClock::
 	goto PlayersHouse_2F_EventScript_WallClock
 	end
 
+LittlerootTown_BrendansHouse_2F_EventScript_VigorothTriggerMale::
+	setvar VAR_0x8004, MALE
+	goto LittlerootTown_BrendansHouse_2F_EventScript_RemoveVigorothMale
+	end
+
+LittlerootTown_MaysHouse_2F_EventScript_VigorothTriggerFemale::
+	setvar VAR_0x8004, FEMALE
+	goto LittlerootTown_MaysHouse_2F_EventScript_RemoveVigorothFemale
+	end
+
+LittlerootTown_BrendansHouse_2F_EventScript_RemoveVigorothMale::
+	checkplayergender
+	call_if_eq VAR_RESULT, MALE, LittlerootTown_BrendansHouse_2F_EventScript_RemoveVigorothMale2
+	end
+
+LittlerootTown_MaysHouse_2F_EventScript_RemoveVigorothFemale::
+	checkplayergender
+	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_MaysHouse_2F_EventScript_RemoveVigorothFemale2
+	end
+
+LittlerootTown_BrendansHouse_2F_EventScript_RemoveVigorothMale2::
+    setvar VAR_LITTLEROOT_INTRO_STATE, 6
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_1
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_2
+	removeobject VAR_0x8008
+	end
+
+LittlerootTown_MaysHouse_2F_EventScript_RemoveVigorothFemale2::
+    setvar VAR_LITTLEROOT_INTRO_STATE, 6
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_1
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_2
+	removeobject VAR_0x8008
+	end
+
 PlayersHouse_2F_EventScript_WallClock::
 	goto_if_set FLAG_SET_WALL_CLOCK, PlayersHouse_2F_EventScript_CheckWallClock
 	msgbox PlayersHouse_2F_Text_ClockIsStopped, MSGBOX_DEFAULT

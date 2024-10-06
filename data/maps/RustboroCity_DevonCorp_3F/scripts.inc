@@ -56,6 +56,7 @@ RustboroCity_DevonCorp_3F_EventScript_MeetPresident::
 	waitfanfare
 	setflag FLAG_SYS_POKENAV_GET
 	setflag FLAG_RECEIVED_POKENAV
+	setflag FLAG_ADDED_MATCH_CALL_TO_POKENAV
 	setflag FLAG_HIDE_RUSTBORO_CITY_POKEMON_SCHOOL_SCOTT
 	msgbox RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp, MSGBOX_DEFAULT
 	closemessage
@@ -151,8 +152,8 @@ RustboroCity_DevonCorp_3F_Movement_PlayerApproachDesk:
 RustboroCity_DevonCorp_3F_EventScript_MrStone::
 	lock
 	faceplayer
-	goto_if_set FLAG_RECEIVED_EXP_SHARE, RustboroCity_DevonCorp_3F_EventScript_MrStoneAfterFavor
-	goto_if_set FLAG_DELIVERED_STEVEN_LETTER, RustboroCity_DevonCorp_3F_EventScript_GiveExpShare
+	goto_if_set FLAG_UNUSED_0x022, RustboroCity_DevonCorp_3F_EventScript_MrStoneAfterFavor
+	goto_if_set FLAG_DELIVERED_STEVEN_LETTER, RustboroCity_DevonCorp_3F_EventScript_GiveFrigibax
 	msgbox RustboroCity_DevonCorp_3F_Text_CountingOnYou, MSGBOX_DEFAULT
 	closemessage
 	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
@@ -169,6 +170,25 @@ RustboroCity_DevonCorp_3F_EventScript_GiveExpShare::
 	closemessage
 	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
+	release
+	end
+
+RustboroCity_DevonCorp_3F_EventScript_GiveFrigibax::
+	msgbox RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter, MSGBOX_DEFAULT
+	getpartysize
+	compare VAR_RESULT, 6
+	goto_if_eq RustboroCity_DevonCorp3F_EventScript_PlayerHasFullParty
+	givemon SPECIES_FRIGIBAX, 25, ITEM_NONE
+	playfanfare MUS_OBTAIN_ITEM
+	setflag FLAG_UNUSED_0x022
+	closemessage
+	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	release
+	end
+
+	RustboroCity_DevonCorp3F_EventScript_PlayerHasFullParty::
+	msgbox RustboroCity_DevonCorp_3F_Text_PlayerHasFullParty, MSGBOX_DEFAULT
 	release
 	end
 
@@ -248,7 +268,14 @@ RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter:
 	.string "MR. STONE: You delivered my LETTER?\n"
 	.string "Thank you kindly!\p"
 	.string "This is my way of thanking you.\n"
+	.string "I received this Pokémon from\l"
+	.string "CLAVELL of the NARANJA ACADEMY in\n"
+	.string "PALDEA, a dear friend of mine.\l"
 	.string "It should help you, a TRAINER.$"
+
+RustboroCity_DevonCorp_3F_Text_GoodLuck:
+    .string "Good luck in your travels, young\n"
+	.string "man.$"
 
 RustboroCity_DevonCorp_3F_Text_ExplainExpShare:
 	.string "MR. STONE: A POKéMON holding that\n"
@@ -258,6 +285,11 @@ RustboroCity_DevonCorp_3F_Text_ExplainExpShare:
 	.string "actually battle.\p"
 	.string "I would say EXP. SHARE is quite useful\n"
 	.string "for raising weak POKéMON.$"
+
+RustboroCity_DevonCorp_3F_Text_PlayerHasFullParty:
+    .string "Oh! It looks like you have too many\n"
+	.string "Pokémon with you.\p"
+	.string "Come back to me when you have room.$"
 
 RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
 	.string "MR. STONE: Since my youth, I've immersed\n"

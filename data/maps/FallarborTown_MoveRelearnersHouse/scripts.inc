@@ -3,6 +3,13 @@
 FallarborTown_MoveRelearnersHouse_MapScripts::
 	.byte 0
 
+FallarborTown_MoveRelearnersHouse_EventScript_NoNeed::
+   lockall
+   faceplayer
+   msgbox FallarborTown_MoveRelearnersHouse_Text_OhOkay, MSGBOX_NPC
+   releaseall
+   end
+
 FallarborTown_MoveRelearnersHouse_EventScript_MoveRelearner::
 	lockall
 	applymovement LOCALID_MOVE_RELEARNER, Common_Movement_FacePlayer
@@ -40,7 +47,7 @@ FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove::
 	goto_if_eq VAR_0x8004, 0, FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
 	msgbox FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale, MSGBOX_DEFAULT
 	removeitem ITEM_HEART_SCALE
-	goto FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale
+	releaseall
 	end
 
 FallarborTown_MoveRelearnersHouse_EventScript_NoMoveToTeachMon::
@@ -96,4 +103,9 @@ FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
 FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg:
 	.string "Hunh? There isn't a single move that\n"
 	.string "I can teach an EGG.$"
+
+FallarborTown_MoveRelearnersHouse_Text_OhOkay:
+	.string "You want to relearn a move?\p"
+	.string "Oh! Looks like you have no need of\n"
+	.string "me.$"
 
