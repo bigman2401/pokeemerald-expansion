@@ -13512,7 +13512,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sStaryuLevelUpLearnset,
         .teachableLearnset = sStaryuTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_WATER_STONE, SPECIES_STARMIE}),
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_WATER_STONE, SPECIES_STARMIE},
+                                {EVO_LEVEL, 40, SPECIES_STARMIE}),
     },
 
     [SPECIES_STARMIE] =

@@ -1105,7 +1105,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "A toxic attack with barbs,\n"
             "etc., that may poison."),
         .effect = EFFECT_HIT,
-        .power = 15,
+        .power = 30,
         .type = TYPE_POISON,
         .accuracy = 100,
         .pp = 35,
@@ -1333,7 +1333,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .effect = EFFECT_FIXED_DAMAGE_ARG,
         .power = 1,
         .type = TYPE_NORMAL,
-        .accuracy = 90,
+        .accuracy = 95,
         .pp = 20,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
@@ -3566,7 +3566,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Envelops the foe in a toxic\n"
             "gas that may poison."),
         #if B_UPDATED_MOVE_DATA >= GEN_6
-            .accuracy = 90,
+            .accuracy = 95,
         #elif B_UPDATED_MOVE_DATA >= GEN_5
             .accuracy = 80,
         #else
@@ -6331,7 +6331,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "A rock-crushing attack\n"
             "that may lower Defense."),
         .effect = EFFECT_HIT,
-        .power = B_UPDATED_MOVE_DATA >= GEN_4 ? 40 : 20,
+        .power = B_UPDATED_MOVE_DATA >= GEN_4 ? 60 : 20,
         .type = TYPE_FIGHTING,
         .accuracy = 100,
         .pp = 15,
@@ -7379,7 +7379,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Dives underwater the first\n"
             "turn and strikes next turn."),
         .effect = EFFECT_SEMI_INVULNERABLE,
-        .power = B_UPDATED_MOVE_DATA >= GEN_4 ? 80 : 60,
+        .power = B_UPDATED_MOVE_DATA >= GEN_4 ? 100 : 60,
         .type = TYPE_WATER,
         .accuracy = 100,
         .pp = 10,
@@ -7478,10 +7478,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Attacks with a burst of\n"
             "light. May lower Sp. Def."),
         .effect = EFFECT_HIT,
-        .power = (B_UPDATED_MOVE_DATA >= GEN_9) ? 95 : 70,
+        .power = (B_UPDATED_MOVE_DATA >= GEN_9) ? 105 : 70,
         .type = TYPE_PSYCHIC,
         .accuracy = 100,
-        .pp = 5,
+        .pp = 10,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_SPECIAL,
@@ -7833,9 +7833,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Fires a meteor-like punch.\n"
             "May raise Attack."),
         .effect = EFFECT_HIT,
-        .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 90 : 100,
+        .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 100 : 100,
         .type = TYPE_STEEL,
-        .accuracy = B_UPDATED_MOVE_DATA >= GEN_6 ? 90 : 85,
+        .accuracy = B_UPDATED_MOVE_DATA >= GEN_6 ? 95 : 85,
         .pp = 10,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
@@ -7959,8 +7959,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Hacks with razorlike wind.\n"
             "High critical-hit ratio."),
         .effect = EFFECT_HIT,
-        // .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 60 : 55,
-        .power = 75,
+        .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 65 : 55,
+        // .power = 75,
         .type = TYPE_FLYING,
         .accuracy = 95,
         .criticalHitStage = 1,

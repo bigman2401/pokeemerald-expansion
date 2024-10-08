@@ -2849,7 +2849,7 @@ const struct Item gItemsInfo[] =
             "Voices can be heard\n"
             "from this odd stone\n"
             "occasionally."),
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .flingPower = 80,

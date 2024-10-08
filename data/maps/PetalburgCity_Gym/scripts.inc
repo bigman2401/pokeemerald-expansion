@@ -1334,6 +1334,14 @@ PetalburgCity_Gym_Text_GymGuideAdvice:
 	.string "The doors in this GYM open when you\n"
 	.string "beat the awaiting TRAINERS.\p"
 	.string "Whoops! The doors in this room are\n"
+	.string "already open, so don't attack me!$"
+
+PetalburgCity_Gym_Text_GymGuideAdvice2:
+	.string "Hey, how's it going, CHAMPION-\n"
+	.string "bound {PLAYER}?\p"
+	.string "The doors in this GYM open when you\n"
+	.string "beat the awaiting TRAINERS.\p"
+	.string "Whoops! The doors in this room are\n"
 	.string "already open, so don't attack me!\p"
 	.string "The TRAINERS of PETALBURG GYM\n"
 	.string "use all kinds of items.\p"

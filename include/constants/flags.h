@@ -47,8 +47,8 @@
 #define FLAG_UNUSED_0x022    0x22 // Unused Flag   I used for Mr.Stone EXP Share.
 #define FLAG_UNUSED_0x023    0x23 // Unused Flag   Using for No Encounters.
 #define FLAG_UNUSED_0x024    0x24 // Unused Flag   Using for No Trainer See.
-#define FLAG_UNUSED_0x025    0x25 // Unused Flag
-#define FLAG_UNUSED_0x026    0x26 // Unused Flag
+#define FLAG_RECEIVED_ODD_KEYSTONE    0x25 // Unused Flag   Using for Odd Keystone.
+#define FLAG_DEFEATED_SPIRITOMB    0x26 // Unused Flag      Using for defeated Spiritomb. 
 #define FLAG_UNUSED_0x027    0x27 // Unused Flag
 #define FLAG_UNUSED_0x028    0x28 // Unused Flag
 #define FLAG_UNUSED_0x029    0x29 // Unused Flag

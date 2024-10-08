@@ -111,7 +111,38 @@ AbandonedShip_HiddenFloorRooms_EventScript_Trash::
 	releaseall
 	end
 
+AbandonedShip_HiddenFloorRooms_EventScript_Spiritomb::
+    lockall
+	goto_if_set FLAG_DEFEATED_SPIRITOMB, AbandonedShip_HiddenFloorRooms_EventScript_DefeatedSpiritomb
+    msgbox AbandonedShip_HiddenFloorRooms_Text_BeingWatched, MSGBOX_DEFAULT
+	goto_if_set FLAG_RECEIVED_ODD_KEYSTONE, AbandonedShip_HiddenFloorRooms_EventScript_SpiritombAttack
+    releaseall 
+    end
+
+AbandonedShip_HiddenFloorRooms_EventScript_SpiritombAttack::
+    setwildbattle SPECIES_SPIRITOMB, 40
+	waitse 
+	playmoncry SPECIES_SPIRITOMB, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	dowildbattle
+	setflag FLAG_DEFEATED_SPIRITOMB
+	releaseall
+	end
+
+AbandonedShip_HiddenFloorRooms_EventScript_DefeatedSpiritomb::
+    msgbox AbandonedShip_HiddenFloorRooms_Text_SpiritombGone, MSGBOX_AUTOCLOSE
+	releaseall
+	end
+
 AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash:
 	.string "It's bright and shiny!\n"
 	.string "But it's just trash…$"
+
+AbandonedShip_HiddenFloorRooms_Text_BeingWatched:
+    .string "You feel like you're being\n"
+	.string "watched...$"
+
+	AbandonedShip_HiddenFloorRooms_Text_SpiritombGone:
+    .string "The SPIRITOMB is gone.$"
 

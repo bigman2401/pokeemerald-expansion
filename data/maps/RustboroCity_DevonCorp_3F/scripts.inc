@@ -57,6 +57,7 @@ RustboroCity_DevonCorp_3F_EventScript_MeetPresident::
 	setflag FLAG_SYS_POKENAV_GET
 	setflag FLAG_RECEIVED_POKENAV
 	setflag FLAG_ADDED_MATCH_CALL_TO_POKENAV
+	setflag FLAG_HAS_MATCH_CALL
 	setflag FLAG_HIDE_RUSTBORO_CITY_POKEMON_SCHOOL_SCOTT
 	msgbox RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp, MSGBOX_DEFAULT
 	closemessage
@@ -178,7 +179,7 @@ RustboroCity_DevonCorp_3F_EventScript_GiveFrigibax::
 	getpartysize
 	compare VAR_RESULT, 6
 	goto_if_eq RustboroCity_DevonCorp3F_EventScript_PlayerHasFullParty
-	givemon SPECIES_FRIGIBAX, 25, ITEM_NONE
+	givemon SPECIES_FRIGIBAX, 18, ITEM_NONE
 	msgbox RustboroCity_DevonCorp_3F_Text_ObtainedFrigibax, MSGBOX_DEFAULT
 	playfanfare MUS_OBTAIN_ITEM
 	waitfanfare
@@ -291,7 +292,7 @@ RustboroCity_DevonCorp_3F_Text_PlayerHasFullParty:
 	.string "Come back to me when you have room.$"
 
 RustboroCity_DevonCorp_3F_Text_ObtainedFrigibax:
-	.string "{HIGHLIGHT LIGHT_BLUE}You obtained Frigibax!$"
+	.string "{COLOR LIGHT_BLUE}You obtained Frigibax!$"
 
 RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
 	.string "MR. STONE: Since my youth, I've immersed\n"
