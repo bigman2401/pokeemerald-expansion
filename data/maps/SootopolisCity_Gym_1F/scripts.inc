@@ -80,7 +80,7 @@ SootopolisCity_Gym_1F_Movement_FallThroughIce:
 	step_end
 
 SootopolisCity_Gym_1F_EventScript_Juan::
-	trainerbattle_single TRAINER_JUAN_1, SootopolisCity_Gym_1F_Text_JuanIntro, SootopolisCity_Gym_1F_Text_JuanDefeat, SootopolisCity_Gym_1F_EventScript_JuanDefeated, NO_MUSIC
+    goto_if_unset FLAG_DEFEATED_SOOTOPOLIS_GYM, SootopolisCity_Gym_1F_EventScript_JuanParty
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, SootopolisCity_Gym_1F_EventScript_JuanRematch
 	goto_if_unset FLAG_RECEIVED_TM_WATER_PULSE, SootopolisCity_Gym_1F_EventScript_GiveWaterPulse2
@@ -89,7 +89,25 @@ SootopolisCity_Gym_1F_EventScript_Juan::
 	release
 	end
 
+SootopolisCity_Gym_1F_EventScript_JuanParty::
+    msgbox SootopolisCity_Gym_1F_Text_JuanIntro
+    special SavePlayerParty
+    fadescreen FADE_TO_BLACK
+    special ChooseFivePokemonParty
+    waitstate
+    goto_if_ne VAR_RESULT, 0, SootopolisCity_Gym_1F_EventScript_JuanBattle
+    special LoadPlayerParty
+    release 
+    end 
+
+SootopolisCity_Gym_1F_EventScript_JuanBattle::
+    special ReducePlayerPartyToSelectedMons 
+    frontier_set FRONTIER_DATA_SELECTED_MON_ORDER
+    trainerbattle_single TRAINER_JUAN_1, SootopolisCity_Gym_1F_Text_JuanIntro2, SootopolisCity_Gym_1F_Text_JuanDefeat, SootopolisCity_Gym_1F_EventScript_JuanDefeated, NO_MUSIC
+    special LoadPlayerParty
+
 SootopolisCity_Gym_1F_EventScript_JuanDefeated::
+    special LoadPlayerParty
 	message SootopolisCity_Gym_1F_Text_ReceivedRainBadge
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
@@ -206,7 +224,11 @@ SootopolisCity_Gym_1F_Text_JuanIntro:
 	.string "with the GYM.\p"
 	.string "However, a compelling reason arose for\n"
 	.string "me to make a comeback.\p"
-	.string "Ah, but enough chatter.\n"
+	.string "Ah, but enough chatter.\p"
+	.string "I will be using five POKéMON and\n"
+	.string "therefore, you may not use six.$"
+
+SootopolisCity_Gym_1F_Text_JuanIntro2:
 	.string "Let us begin our match, shall we?\p"
 	.string "Please, you shall bear witness to\n"
 	.string "our artistry.\p"

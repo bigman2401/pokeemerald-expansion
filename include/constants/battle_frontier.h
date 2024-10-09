@@ -18,13 +18,15 @@
 #define FACILITY_LINK_CONTEST      7
 #define FACILITY_UNION_ROOM        8
 #define FACILITY_MULTI_OR_EREADER  9  // Direct Corner multi battles, multi battle with Steven, and e-Reader battles
+#define FACILITY_GYM              10 
 
 // Battle Frontier battle modes.
 #define FRONTIER_MODE_SINGLES      0
 #define FRONTIER_MODE_DOUBLES      1
 #define FRONTIER_MODE_MULTIS       2
 #define FRONTIER_MODE_LINK_MULTIS  3
-#define FRONTIER_MODE_COUNT        4
+#define FRONTIER_MODE_GYM          4
+#define FRONTIER_MODE_COUNT        5
 
 // Challenge Statuses
 #define CHALLENGE_STATUS_SAVING   1

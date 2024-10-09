@@ -849,7 +849,7 @@ static void SaveSelectedParty(void)
 {
     u8 i;
 
-    for (i = 0; i < MAX_FRONTIER_PARTY_SIZE; i++)
+    for (i = 0; i < JUAN_PARTY_SIZE; i++)
     {
         u16 monId = gSaveBlock2Ptr->frontier.selectedPartyMons[i] - 1;
         if (monId < PARTY_SIZE)
@@ -1729,7 +1729,7 @@ void ResetWinStreaks(void)
     s32 battleMode, lvlMode;
 
     gSaveBlock2Ptr->frontier.winStreakActiveFlags = 0;
-    for (battleMode = 0; battleMode < FRONTIER_MODE_COUNT; battleMode++)
+    for (battleMode = 0; battleMode < FRONTIER_MODE_COUNT -1; battleMode++)
     {
         for (lvlMode = 0; lvlMode < FRONTIER_LVL_TENT; lvlMode++)
         {
@@ -1961,6 +1961,9 @@ static void CheckPartyIneligibility(void)
         else
             toChoose = FRONTIER_PARTY_SIZE;
         break;
+        case FRONTIER_MODE_GYM:
+        toChoose = JUAN_PARTY_SIZE;
+        break;
     }
 
     monIdLooper = 0;
@@ -2101,7 +2104,7 @@ static void RestoreHeldItems(void)
 {
     u8 i;
 
-    for (i = 0; i < MAX_FRONTIER_PARTY_SIZE; i++)
+    for (i = 0; i < JUAN_PARTY_SIZE; i++)
     {
         if (gSaveBlock2Ptr->frontier.selectedPartyMons[i] != 0)
         {

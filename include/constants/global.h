@@ -46,10 +46,13 @@
 #define FRONTIER_PARTY_SIZE         3
 #define FRONTIER_DOUBLES_PARTY_SIZE 4
 #define FRONTIER_MULTI_PARTY_SIZE   2
-#define MAX_FRONTIER_PARTY_SIZE    (max(FRONTIER_PARTY_SIZE,        \
-                                    max(FRONTIER_DOUBLES_PARTY_SIZE,\
+#define MAX_FRONTIER_PARTY_SIZE    (max(FRONTIER_PARTY_SIZE,                \
+                                    max(FRONTIER_DOUBLES_PARTY_SIZE,        \
                                         FRONTIER_MULTI_PARTY_SIZE)))
 #define UNION_ROOM_PARTY_SIZE       2
+#define ROXANNE_PARTY_SIZE          2
+#define JUAN_PARTY_SIZE             5
+
 
 // capacities of various saveblock objects
 #define DAYCARE_MON_COUNT 2

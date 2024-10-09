@@ -24,7 +24,7 @@ extern struct PartyMenu gPartyMenu;
 extern bool8 gPartyMenuUseExitCallback;
 extern u8 gSelectedMonPartyId;
 extern MainCallback gPostMenuFieldCallback;
-extern u8 gSelectedOrderFromParty[MAX_FRONTIER_PARTY_SIZE];
+extern u8 gSelectedOrderFromParty[JUAN_PARTY_SIZE];
 extern u8 gBattlePartyCurrentOrder[PARTY_SIZE / 2];
 
 extern void (*gItemUseCB)(u8, TaskFunc);

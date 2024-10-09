@@ -30,6 +30,7 @@
 
 static void CB2_ReturnFromChooseHalfParty(void);
 static void CB2_ReturnFromChooseBattleFrontierParty(void);
+static void CB2_ReturnFromChooseFivePokemonParty(void);
 static void HealPlayerBoxes(void);
 
 void HealPlayerParty(void)
@@ -215,22 +216,44 @@ static void CB2_ReturnFromChooseBattleFrontierParty(void)
     SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
 }
 
+void ChooseFivePokemonParty(void)
+{
+    gMain.savedCallback = CB2_ReturnFromChooseFivePokemonParty;
+    VarSet(VAR_FRONTIER_FACILITY, FACILITY_GYM);
+    InitChooseHalfPartyForBattle(0);
+}
+
+static void CB2_ReturnFromChooseFivePokemonParty(void)
+{
+    switch (gSelectedOrderFromParty[0])
+    {
+    case 0:
+        gSpecialVar_Result = FALSE;
+        break;
+    default:
+        gSpecialVar_Result = TRUE;
+        break;
+    }
+
+    SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
+}
+
 void ReducePlayerPartyToSelectedMons(void)
 {
-    struct Pokemon party[MAX_FRONTIER_PARTY_SIZE];
+    struct Pokemon party[JUAN_PARTY_SIZE];
     int i;
 
     CpuFill32(0, party, sizeof party);
 
     // copy the selected Pokémon according to the order.
-    for (i = 0; i < MAX_FRONTIER_PARTY_SIZE; i++)
+    for (i = 0; i < JUAN_PARTY_SIZE; i++)
         if (gSelectedOrderFromParty[i]) // as long as the order keeps going (did the player select 1 mon? 2? 3?), do not stop
             party[i] = gPlayerParty[gSelectedOrderFromParty[i] - 1]; // index is 0 based, not literal
 
     CpuFill32(0, gPlayerParty, sizeof gPlayerParty);
 
     // overwrite the first 4 with the order copied to.
-    for (i = 0; i < MAX_FRONTIER_PARTY_SIZE; i++)
+    for (i = 0; i < JUAN_PARTY_SIZE; i++)
         gPlayerParty[i] = party[i];
 
     CalculatePlayerPartyCount();

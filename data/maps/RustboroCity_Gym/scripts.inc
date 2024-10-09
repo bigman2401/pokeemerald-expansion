@@ -2,7 +2,7 @@ RustboroCity_Gym_MapScripts::
 	.byte 0
 
 RustboroCity_Gym_EventScript_Roxanne::
-	trainerbattle_single TRAINER_ROXANNE_1, RustboroCity_Gym_Text_RoxanneIntro, RustboroCity_Gym_Text_RoxanneDefeat, RustboroCity_Gym_EventScript_RoxanneDefeated, NO_MUSIC
+    goto_if_unset FLAG_DEFEATED_RUSTBORO_GYM, RustboroCity_Gym_EventScript_RoxanneParty
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, RustboroCity_Gym_EventScript_RoxanneRematch
 	goto_if_unset FLAG_RECEIVED_TM_ROCK_TOMB, RustboroCity_Gym_EventScript_GiveRockTomb
@@ -10,7 +10,27 @@ RustboroCity_Gym_EventScript_Roxanne::
 	release
 	end
 
+RustboroCity_Gym_EventScript_RoxanneParty::
+   msgbox RustboroCity_Gym_Text_RoxanneIntro MSGBOX_DEFAULT
+   waitmessage
+   special SavePlayerParty
+   fadescreen FADE_TO_BLACK
+   setvar VAR_0x8005, ROXANNE_PARTY_SIZE
+   special ChoosePartyForBattleFrontier
+   waitstate
+   goto_if_ne VAR_RESULT, 0, RustboroCity_Gym_EventScript_RoxanneBattle
+   special LoadPlayerParty
+   release 
+   end 
+
+RustboroCity_Gym_EventScript_RoxanneBattle::
+   special ReducePlayerPartyToSelectedMons 
+   frontier_set FRONTIER_DATA_SELECTED_MON_ORDER
+   trainerbattle_single TRAINER_ROXANNE_1, RustboroCity_Gym_Text_RoxanneIntro2, RustboroCity_Gym_Text_RoxanneDefeat, RustboroCity_Gym_EventScript_RoxanneDefeated, NO_MUSIC
+   special LoadPlayerParty
+
 RustboroCity_Gym_EventScript_RoxanneDefeated::
+    special LoadPlayerParty
 	message RustboroCity_Gym_Text_ReceivedStoneBadge
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
@@ -181,6 +201,12 @@ RustboroCity_Gym_Text_RoxanneIntro:
 	.string "I became a GYM LEADER so that I might\n"
 	.string "apply what I learned at the POKéMON\l"
 	.string "TRAINER'S SCHOOL in battle.\p"
+	.string "As this is an official EVER GRANDE\n"
+	.string "LEAGUE match, and I am using two\l"
+	.string "POKéMON, you must also only use two\l"
+	.string "POKéMON. Choose wisely.$" 
+
+RustboroCity_Gym_Text_RoxanneIntro2:
 	.string "Would you kindly demonstrate how you\n"
 	.string "battle, and with which POKéMON?$"
 

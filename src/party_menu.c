@@ -238,7 +238,7 @@ EWRAM_DATA u8 gSelectedMonPartyId = 0;
 EWRAM_DATA MainCallback gPostMenuFieldCallback = NULL;
 static EWRAM_DATA u16 *sSlot1TilemapBuffer = 0; // for switching party slots
 static EWRAM_DATA u16 *sSlot2TilemapBuffer = 0; //
-EWRAM_DATA u8 gSelectedOrderFromParty[MAX_FRONTIER_PARTY_SIZE] = {0};
+EWRAM_DATA u8 gSelectedOrderFromParty[JUAN_PARTY_SIZE] = {0};
 static EWRAM_DATA u16 sPartyMenuItemId = 0;
 EWRAM_DATA u8 gBattlePartyCurrentOrder[PARTY_SIZE / 2] = {0}; // bits 0-3 are the current pos of Slot 1, 4-7 are Slot 2, and so on
 static EWRAM_DATA u8 sInitialLevel = 0;
@@ -6949,6 +6949,8 @@ static bool8 GetBattleEntryEligibility(struct Pokemon *mon)
         return FALSE;
     case FACILITY_UNION_ROOM:
         return TRUE;
+    case FACILITY_GYM:
+        return TRUE;
     default: // Battle Frontier
         species = GetMonData(mon, MON_DATA_SPECIES);
         if (gSpeciesInfo[species].isFrontierBanned)
@@ -6975,7 +6977,7 @@ static u8 CheckBattleEntriesAndGetMessage(void)
     }
 
     facility = VarGet(VAR_FRONTIER_FACILITY);
-    if (facility == FACILITY_UNION_ROOM || facility == FACILITY_MULTI_OR_EREADER)
+    if (facility == FACILITY_UNION_ROOM || facility == FACILITY_MULTI_OR_EREADER || facility == FACILITY_GYM)
         return 0xFF;
 
     maxBattlers = GetMaxBattleEntries();
@@ -7042,7 +7044,9 @@ static u8 GetMaxBattleEntries(void)
         return MULTI_PARTY_SIZE;
     case FACILITY_UNION_ROOM:
         return UNION_ROOM_PARTY_SIZE;
-    default: // Battle Frontier
+    case FACILITY_GYM:
+        return JUAN_PARTY_SIZE;
+    default:  // Battle Frontier
         return gSpecialVar_0x8005;
     }
 }
@@ -7055,7 +7059,9 @@ static u8 GetMinBattleEntries(void)
         return 1;
     case FACILITY_UNION_ROOM:
         return UNION_ROOM_PARTY_SIZE;
-    default: // Battle Frontier
+    case FACILITY_GYM:
+        return 1;
+    default:  // Battle Frontier
         return gSpecialVar_0x8005;
     }
 }
@@ -7068,6 +7074,8 @@ static u8 GetBattleEntryLevelCap(void)
         return MAX_LEVEL;
     case FACILITY_UNION_ROOM:
         return UNION_ROOM_MAX_LEVEL;
+    case FACILITY_GYM:
+        return MAX_LEVEL;
     default: // Battle Frontier
         if (gSpecialVar_0x8004 == FRONTIER_LVL_50)
             return FRONTIER_MAX_LEVEL_50;
